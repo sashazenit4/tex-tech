@@ -36,13 +36,33 @@ body {
       -ms-flex-align: center;
           align-items: center;
   min-height: 81px;
-  border: 1px solid red;
+  border-bottom: 1px solid red;
 }
 
 .menu-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: transparent;
-  border-right: 1px solid #510bba;
-  border-left: 1px solid #510bba;
   height: 81px;
   width: 70px;
 }
+
+.menu-button__line {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: black;
+  margin: 3px 0;
+}
+/*# sourceMappingURL=style.css.map */
