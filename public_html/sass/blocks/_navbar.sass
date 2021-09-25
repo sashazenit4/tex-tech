@@ -1,21 +1,31 @@
+.logo_navbar
+    &__logo
+        display: inline-block
+        width: 85px
+        height: 45px
+    &__img
+        display: inline-block
+        width: 85px
+        height: 45px
 .navbar
     &-wrap
         display: flex
         align-items: center
+        justify-content: space-between
         min-height: 81px
-        border-bottom: 1px solid red
+        border-bottom: 1px solid #2B2D36
+    &__contacts
+        justify-content: center
+        align-items: center
+        display: block
 .menu
+    display: flex
+    align-items: center
+    justify-content: space-between
+    background-color: transparent
+    font-size: 20px
     &-button
         display: flex
-        flex-direction: column
-        align-items: center
+        flex-direction: row
         justify-content: center
-        background-color: transparent
-        height: 81px
-        width: 70px
-        &__line
-            display: block
-            width: 20px
-            height: 2px
-            background-color: black
-            margin: 3px 0
+        align-items: center

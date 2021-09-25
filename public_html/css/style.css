@@ -24,8 +24,35 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'AeonikPro-Light';
+  src: url("../fonts/AeonikPro-Light.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AeonikPro-Regular';
+  src: url("../fonts/AeonikPro-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: 'Proxima Nova Semibold', sans-serif;
+  font-family: 'AeonikPro-Light', sans-serif;
+  background-color: #E6EBE0;
+}
+
+.logo_navbar__logo {
+  display: inline-block;
+  width: 85px;
+  height: 45px;
+}
+
+.logo_navbar__img {
+  display: inline-block;
+  width: 85px;
+  height: 45px;
 }
 
 .navbar-wrap {
@@ -35,34 +62,50 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   min-height: 81px;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #2B2D36;
+}
+
+.navbar__contacts {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: block;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: transparent;
+  font-size: 20px;
 }
 
 .menu-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: transparent;
-  height: 81px;
-  width: 70px;
-}
-
-.menu-button__line {
-  display: block;
-  width: 20px;
-  height: 2px;
-  background-color: black;
-  margin: 3px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
