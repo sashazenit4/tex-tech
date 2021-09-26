@@ -13,6 +13,7 @@
         align-items: center
         justify-content: space-between
         min-height: 81px
+        flex-wrap: wrap
         border-bottom: 1px solid #2B2D36
     &__contacts
         justify-content: center
@@ -20,12 +21,14 @@
         display: block
 .menu
     display: flex
+    flex-direction: row
     align-items: center
-    justify-content: space-between
+    text-align: left
+    justify-content: center
     background-color: transparent
     font-size: 20px
+    flex-wrap: wrap
     &-button
-        display: flex
-        flex-direction: row
-        justify-content: center
-        align-items: center
+        display: inline-block
+        max-width: 148px
+        margin-right: 90px
