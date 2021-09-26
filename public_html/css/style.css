@@ -104,12 +104,11 @@ body {
           justify-content: center;
   background-color: transparent;
   font-size: 20px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  max-width: 736px;
 }
 
 .menu-button {
   display: inline-block;
   max-width: 148px;
-  margin-right: 90px;
+  margin-right: 72px;
 }
