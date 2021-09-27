@@ -109,7 +109,7 @@ body {
   font-size: 20px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: auto;
+  margin-left: 90px;
 }
 
 .menu-button {
