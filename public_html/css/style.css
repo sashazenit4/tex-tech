@@ -4,7 +4,7 @@
 }
 
 .container {
-  max-width: 1380px;
+  max-width: 95.8%;
   margin: auto;
   text-align: justify;
 }
@@ -51,8 +51,9 @@ body {
 
 .logo_navbar__logo {
   display: inline-block;
-  width: 85px;
+  width: 120px;
   height: 45px;
+  margin: auto;
 }
 
 .logo_navbar__img {
@@ -78,6 +79,7 @@ body {
 }
 
 .navbar__contacts {
+  width: 200px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -85,6 +87,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   display: block;
+  margin: auto;
 }
 
 .menu {
@@ -106,11 +109,12 @@ body {
   font-size: 20px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: auto;
 }
 
 .menu-button {
   display: inline-block;
   max-width: 146px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-right: 90px;
 }
+/*# sourceMappingURL=style.css.map */
