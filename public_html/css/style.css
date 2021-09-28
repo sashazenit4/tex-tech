@@ -44,22 +44,52 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Manrope-Light';
+  src: url("../fonts/Manrope-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope-Bold';
+  src: url("../fonts/Manrope-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: 'AeonikPro-Light', sans-serif;
-  background-color: #e3e2dd;
+}
+
+.header {
+  max-width: 1440px;
+  margin: auto;
+  height: 839px;
+  background-image: url(https://ic.wampi.ru/2021/09/28/pexels-yan-krukov-4496963.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .logo_navbar__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 142px;
+  height: 51px;
+}
+
+.logo_navbar__logo-text {
   display: inline-block;
-  width: 120px;
-  height: 45px;
+  font-family: 'Manrope-Bold', sans-serif;
+  font-size: 24px;
   margin: auto;
 }
 
-.logo_navbar__img {
+.logo_navbar__logo-img {
   display: inline-block;
-  width: 85px;
-  height: 45px;
+  width: 34px;
+  height: 51px;
 }
 
 .navbar-wrap {
@@ -75,7 +105,6 @@ body {
   min-height: 81px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  border-bottom: 1px solid #2B2D36;
 }
 
 .navbar__contacts {
@@ -87,7 +116,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   display: block;
-  margin: auto;
 }
 
 .menu {
@@ -117,4 +145,3 @@ body {
   max-width: 146px;
   margin-right: 90px;
 }
-/*# sourceMappingURL=style.css.map */

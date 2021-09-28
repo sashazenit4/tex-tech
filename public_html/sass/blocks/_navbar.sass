@@ -1,13 +1,17 @@
 .logo_navbar
     &__logo
-        display: inline-block
-        width: 120px
-        height: 45px
-        margin: auto
-    &__img
-        display: inline-block
-        width: 85px
-        height: 45px
+        display: flex
+        width: 142px
+        height: 51px
+        &-text
+            display: inline-block
+            +bold-logo
+            font-size: 24px
+            margin: auto
+        &-img
+            display: inline-block
+            width: 34px
+            height: 51px
 .navbar
     &-wrap
         display: flex
@@ -15,13 +19,11 @@
         justify-content: space-between
         min-height: 81px
         flex-wrap: wrap
-        border-bottom: 1px solid #2B2D36
     &__contacts
         width: 200px
         justify-content: center
         align-items: center
         display: block
-        margin: auto
 .menu
     display: flex
     flex-direction: row

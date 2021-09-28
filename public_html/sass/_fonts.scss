@@ -28,9 +28,27 @@
     font-weight: normal;
     font-style: normal;
     }
+@font-face {
+    font-family: 'Manrope-Light';
+    src: url('../fonts/Manrope-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Manrope-Bold';
+    src: url('../fonts/Manrope-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+    }
 @mixin bold {
     font-family: 'AeonikPro-Regular', sans-serif;
 }
 @mixin light {
     font-family: 'AeonikPro-Light', sans-serif;
+}
+@mixin light-logo {
+    font-family: 'Manrope-Light', sans-serif;
+}
+@mixin bold-logo {
+    font-family: 'Manrope-Bold', sans-serif;
 }
