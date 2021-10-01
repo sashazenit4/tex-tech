@@ -63,12 +63,17 @@ body {
 }
 
 .header {
-  max-width: 1440px;
+  max-width: 100%;
   margin: auto;
   height: 839px;
+  background-size: cover;
   background-image: url(https://ic.wampi.ru/2021/09/28/pexels-yan-krukov-4496963.png);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.wrap-title {
+  font-family: 'Manrope-Bold', sans-serif;
 }
 
 .logo_navbar__logo {
@@ -145,3 +150,12 @@ body {
   max-width: 146px;
   margin-right: 90px;
 }
+
+.wrap-title {
+  text-align: center;
+  font-size: 120px;
+  height: 788px;
+  width: 100%;
+  color: #262B39;
+}
+/*# sourceMappingURL=style.css.map */
