@@ -9,14 +9,16 @@
     <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="head">
         <div class="navbar">
             <div class="container">
                 <div class="navbar-wrap">
+                    <a class="navbar-wrap-a" href="#head">
                     <div class="logo_navbar__logo">
                         <img class="logo_navbar__logo-img" src="img/logotype.png">
                         <div class="logo_navbar__logo-text">TexTech</div>
                     </div>
+                    </a>
                     <!-- /.logo navbar__logo -->
                     <div class="menu">
                         <span class="menu-button">Типы тканей</span>
@@ -40,8 +42,8 @@
                 <div class="wrap-title__description-2">С нашей тканью – это реальность.</div>
             </div>
             <div class="wrap-title__buttons">
-                <button class="wrap-title__buttons-take">Заказать</button>
-                <button class="wrap-title__buttons-achieves">Преимущества</button>
+                <button onclick="window.location.href='#form'" class="wrap-title__buttons-take" onclick="">Заказать</button >
+                <button onclick="window.location.href='#achieve'" class="wrap-title__buttons-achieves">Преимущества</button >
             </div>
         </div>
         <!-- /.navbar -->
