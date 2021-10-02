@@ -15,6 +15,42 @@
         position: relative
         height: 540px
         top: 12%
+    &__slider
+        &-controls
+            display: flex
+            justify-content: center
+            position: relative
+            &-label
+                cursor: pointer
+                display: inline-block
+                height: 8px
+                margin: 15px 12px 0 16px
+                position: relative
+                width: 8px
+                -webkit-border-radius: 50%
+                -moz-border-radius: 50%
+                -o-border-radius: 50%
+                border-radius: 50%
+                -webkit-transition: background ease-in-out .5s
+                -moz-transition: background ease-in-out .5s
+                -o-transition: background ease-in-out .5s
+                transition: background ease-in-out .5s
+            &-label::after
+                border: 2px solid #000
+                content: " "
+                display: block
+                height: 12px
+                left: -4px
+                position: absolute
+                top: -4px
+                width: 12px
+                -webkit-border-radius: 50%
+                -moz-border-radius: 50%
+                -o-border-radius: 50%
+                border-radius: 50%  
+            &-label::hover
+                #slide1:checked ~ .controls label:nth-of-type(1), #slide2:checked ~ .controls label:nth-of-type(2), #slide3:checked ~ .controls label:nth-of-type(3)
+                    background: #ddd
         &-buttons
             display: flex
             position: relative
@@ -24,3 +60,198 @@
             height: 32px
             margin: auto
             top: 94%
+        &-buttons > input
+            display: none
+        &-slider
+            height: 489px
+            overflow: hidden
+            position: relative
+            width: inherit
+            display: flex
+            justify-content: space-between
+            margin: auto
+.slides
+    width: inherit
+    height: inherit
+.group1
+    position: absolute
+    display: flex
+    justify-content: space-between
+    width: 100%
+.group2
+    position: absolute
+    display: none
+    justify-content: space-between
+    width: 100%
+.group3
+    position: absolute
+    display: none
+    justify-content: space-between
+    width: 100%
+.slide1
+    position: relative
+    color: #262B39
+    &-title
+        font-weight: bold
+        position: absolute
+        font-size: 72px
+        margin-top: 60px
+    &-obr
+        position: absolute
+        -webkit-border-radius: 128px / 57px
+        border-radius: 128px / 57px
+        width: 256.53px
+        height: 117.48px
+        opacity: 0.8
+        border: 1px solid #262B39
+        box-sizing: border-box
+        transform: rotate(-12.54deg)
+        margin-top: 20px
+.slide2
+    position: relative
+    color: #027E72
+    &-title
+        font-weight: bold
+        position: absolute
+        font-size: 72px
+        margin-top: 60px
+    &-obr
+        position: absolute
+        -moz-border-radius: 128px / 57px
+        -webkit-border-radius: 128px / 57px
+        border-radius: 128px / 57px
+        width: 256.53px
+        height: 117.48px
+        opacity: 0.8
+        border: 1px solid #262B39
+        box-sizing: border-box
+        transform: rotate(-12.54deg)
+        margin-top: 20px
+.slide3
+    position: relative
+    color: #615055
+    &-title
+        font-weight: bold
+        position: absolute
+        font-size: 72px 
+        margin-top: 60px
+    &-obr
+        position: absolute
+        -moz-border-radius: 128px / 57px
+        -webkit-border-radius: 128px / 57px
+        border-radius: 128px / 57px
+        width: 256.53px
+        height: 117.48px
+        opacity: 0.8
+        border: 1px solid #262B39
+        box-sizing: border-box
+        transform: rotate(-12.54deg)
+        margin-top: 20px
+.slide4
+    position: relative
+    &-title
+        position: absolute
+        font-size: 72px 
+        margin-top: 60px
+    &-obr
+        position: absolute
+        -moz-border-radius: 128px / 57px
+        -webkit-border-radius: 128px / 57px
+        border-radius: 128px / 57px
+        width: 256.53px
+        height: 117.48px
+        opacity: 0.8
+        border: 1px solid #262B39
+        box-sizing: border-box
+        transform: rotate(-12.54deg)
+        margin-top: 20px
+.slide5
+    position: relative 
+    &-title
+        position: absolute
+        font-size: 72px
+        margin-top: 60px
+    &-obr
+        position: absolute
+        -moz-border-radius: 128px / 57px
+        -webkit-border-radius: 128px / 57px
+        border-radius: 128px / 57px
+        width: 256.53px
+        height: 117.48px
+        opacity: 0.8
+        border: 1px solid #262B39
+        box-sizing: border-box
+        transform: rotate(-12.54deg)
+        margin-top: 20px
+.slide6
+    position: relative
+    &-title
+        position: absolute
+        font-size: 72px
+        margin-top: 60px
+    &-obr
+        position: absolute
+        -moz-border-radius: 128px / 57px
+        -webkit-border-radius: 128px / 57px
+        border-radius: 128px / 57px
+        width: 256.53px
+        height: 117.48px
+        opacity: 0.8
+        border: 1px solid #262B39
+        box-sizing: border-box
+        transform: rotate(-12.54deg)
+        margin-top: 20px
+.slide7
+    position: relative
+    &-title
+        position: absolute
+        font-size: 72px
+        margin-top: 60px
+    &-obr
+        position: absolute
+        -moz-border-radius: 128px / 57px
+        -webkit-border-radius: 128px / 57px
+        border-radius: 128px / 57px
+        width: 256.53px
+        height: 117.48px
+        opacity: 0.8
+        border: 1px solid #262B39
+        box-sizing: border-box
+        transform: rotate(-12.54deg)
+        margin-top: 20px
+.slide8
+    position: relative
+    &-title
+        position: absolute
+        font-size: 72px
+        margin-top: 60px
+    &-obr
+        position: absolute
+        -moz-border-radius: 128px / 57px
+        -webkit-border-radius: 128px / 57px
+        border-radius: 128px / 57px
+        width: 256.53px
+        height: 117.48px
+        opacity: 0.8
+        border: 1px solid #262B39
+        box-sizing: border-box
+        transform: rotate(-12.54deg)
+        z-index: 999999
+.slide9
+    position: relative
+    &-title
+        position: absolute
+        font-size: 72px
+        margin-top: 60px
+    &-obr
+        position: absolute
+        -moz-border-radius: 128px / 57px
+        -webkit-border-radius: 128px / 57px
+        border-radius: 128px / 57px
+        width: 256.53px
+        height: 117.48px
+        opacity: 0.8
+        border: 1px solid #262B39
+        box-sizing: border-box
+        transform: rotate(-12.54deg)
+        margin-top: 20px
