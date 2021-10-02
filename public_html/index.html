@@ -1,12 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tex-tech</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
-    
+    <header class="header" id="head">
+        <div class="navbar">
+            <div class="container">
+                <div class="navbar-wrap">
+                    <a class="navbar-wrap-a" href="#head">
+                    <div class="logo_navbar__logo">
+                        <img class="logo_navbar__logo-img" src="img/logotype.png">
+                        <div class="logo_navbar__logo-text">TexTech</div>
+                    </div>
+                    </a>
+                    <!-- /.logo navbar__logo -->
+                    <div class="menu">
+                        <span class="menu-button">Типы тканей</span>
+                        <span class="menu-button">Преимущества</span>
+                        <span class="menu-button">О нас</span>
+                        <span class="menu-button">Наши партнеры</span>
+                    </div>
+                    <div class="navbar__contacts">
+                    <span class="navbar__mobile">+7 (495)  1111111</span>
+                    <span class="navbar__email">hi@tex-tech.ru</span>
+                    </div>
+                </div>
+                <!-- /.navbar-wrap -->
+            </div> 
+            <!-- /.container -->
+        </div>
+        <div class="wrap-title">
+            <div class="wrap-title__main-title">Textile Technology</div>
+            <div class="wrap-title__description">
+                <div class="wrap-title__description-1">Как часто Вы думали об одежде, сквозь которую можно загорать?</div>
+                <div class="wrap-title__description-2">С нашей тканью – это реальность.</div>
+            </div>
+            <div class="wrap-title__buttons">
+                <button onclick="window.location.href='#form'" class="wrap-title__buttons-take" onclick="">Заказать</button >
+                <button onclick="window.location.href='#achieve'" class="wrap-title__buttons-achieves">Преимущества</button >
+            </div>
+        </div>
+        <!-- /.navbar -->
+        <div class="hero"></div>
+        <!-- /.hero -->
+    </header>
+    <section id="type" class="tex-types">
+        <div class="type-wrap">
+            <div class="type-wrap__title">
+                Типы тканей
+            </div>
+            <div class="type-wrap__slider">
+                <div class="type-wrap__slider-buttons">
+                    <input type="radio" name="point" id="slide1" checked>
+                    <input type="radio" name="point" id="slide2">
+                    <input type="radio" name="point" id="slide3">
+                </div>
+                <div class="type-wrap__slider-slider">
+                    <div class="slides slide1"></div>
+                    <div class="slides slide2"></div>
+                    <div class="slides slide3"></div>
+                    <div class="slides slide4"></div>
+                    <div class="slides slide5"></div>
+                    <div class="slides slide5"></div>
+                    <div class="slides slide7"></div>
+                    <div class="slides slide8"></div>
+                    <div class="slides slide9"></div>
+                </div>	
+                <div class="type-wrap__slider-controls">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.header -->
 </body>
 </html>

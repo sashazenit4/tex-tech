@@ -1,0 +1,321 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 95.8%;
+  margin: auto;
+  text-align: justify;
+}
+
+.container::after {
+  content: '';
+  display: inline-block;
+}
+
+.wrap-title {
+  max-width: 80%;
+  margin: auto;
+  text-align: justify;
+}
+
+.wrap-title::after {
+  content: '';
+  display: inline-block;
+}
+
+.type-wrap {
+  max-width: 80.5%;
+  margin: auto;
+  text-align: justify;
+}
+
+.type-wrap::after {
+  content: '';
+  display: inline-block;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Light';
+  src: url("../fonts/ProximaNova-Light.eot");
+  src: url("../fonts/ProximaNova-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Light.woff") format("woff"), url("../fonts/ProximaNova-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Semibold';
+  src: url("../fonts/ProximaNova-Semibold.eot");
+  src: url("../fonts/ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Semibold.woff") format("woff"), url("../fonts/ProximaNova-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AeonikPro-Light';
+  src: url("../fonts/AeonikPro-Light.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AeonikPro-Regular';
+  src: url("../fonts/AeonikPro-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope-Light';
+  src: url("../fonts/Manrope-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope-Bold';
+  src: url("../fonts/Manrope-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'AeonikPro-Light', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  max-width: 100%;
+  margin: auto;
+  height: 839px;
+  background-size: cover;
+  background-image: url(https://ic.wampi.ru/2021/09/28/pexels-yan-krukov-4496963.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrap-title {
+  font-family: 'Manrope-Bold', sans-serif;
+}
+
+.wrap-title__buttons {
+  font-family: 'AeonikPro-Light', sans-serif;
+}
+
+.type-wrap__title {
+  font-family: 'AeonikPro-Regular', sans-serif;
+}
+
+.logo_navbar {
+  color: #41485A;
+}
+
+.logo_navbar__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 142px;
+  height: 51px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo_navbar__logo-text {
+  display: inline-block;
+  font-family: 'Manrope-Bold', sans-serif;
+  font-size: 24px;
+  margin: auto;
+}
+
+.logo_navbar__logo-img {
+  display: inline-block;
+  width: 34px;
+  height: 51px;
+}
+
+.navbar {
+  color: #41485A;
+}
+
+.navbar-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 81px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #41485A;
+}
+
+.navbar-wrap-a {
+  color: #41485A;
+}
+
+.navbar__contacts {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #027E72;
+}
+
+.navbar__mobile {
+  margin-right: 13px;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: transparent;
+  font-size: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 90px;
+}
+
+.menu-button {
+  display: inline-block;
+  max-width: 146px;
+  margin-right: 90px;
+}
+
+.wrap-title {
+  height: 788px;
+  width: 100%;
+}
+
+.wrap-title__main-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: #262B39;
+  font-size: 120px;
+}
+
+.wrap-title__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  color: #2B2D36;
+  font-size: 16px;
+  top: 12%;
+  width: 100%;
+}
+
+.wrap-title__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  top: 46%;
+  width: 100%;
+  text-align: center;
+}
+
+.wrap-title__buttons-take {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #2B2D36;
+  width: 259px;
+  height: 47px;
+  border: 1px solid #2B2D36;
+  color: white;
+  cursor: pointer;
+}
+
+.wrap-title__buttons-achieves {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #F49F0A;
+  border: 1px solid #F49F0A;
+  width: 259px;
+  height: 47px;
+  color: #2B2D36;
+  cursor: pointer;
+}
+
+.tex-types {
+  width: 100%;
+  height: 709px;
+  background-color: #E6EBE0;
+}
+
+.type-wrap {
+  height: 709px;
+}
+
+.type-wrap__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  height: 73px;
+  top: 10.5%;
+  color: #262B39;
+  font-size: 64px;
+}
+
+.type-wrap__slider {
+  position: relative;
+  height: 540px;
+  top: 12%;
+}
+
+.type-wrap__slider-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 92px;
+  height: 32px;
+  margin: auto;
+  top: 94%;
+}
