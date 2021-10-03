@@ -318,7 +318,7 @@ a {
   cursor: pointer;
   display: inline-block;
   height: 8px;
-  margin: 15px 12px 0 16px;
+  margin: 75px 12px 0 16px;
   position: relative;
   width: 8px;
   border-radius: 50%;
@@ -326,54 +326,40 @@ a {
   transition: background ease-in-out .5s;
 }
 
-.type-wrap__slider-controls-label::after {
+.type-wrap__slider-controls-label:after {
   border: 2px solid #000;
-  content: " ";
+  content: "";
   display: block;
   height: 12px;
   left: -4px;
-  position: absolute;
+  position: relative;
   top: -4px;
   width: 12px;
   border-radius: 50%;
 }
 
-.type-wrap__slider-controls-label::hover #slide1:checked ~ .controls label:nth-of-type(1), .type-wrap__slider-controls-label::hover #slide2:checked ~ .controls label:nth-of-type(2), .type-wrap__slider-controls-label::hover #slide3:checked ~ .controls label:nth-of-type(3) {
-  background: #ddd;
-}
-
-.type-wrap__slider-buttons {
+.type-wrap__slider-slider {
+  height: 420px;
+  overflow: hidden;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
-  -ms-flex-line-pack: center;
-      align-content: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 92px;
-  height: 32px;
   margin: auto;
-  top: 94%;
 }
 
-.type-wrap__slider-buttons > input {
+.type-wrap__slider-buttons-but {
   display: none;
 }
 
-.type-wrap__slider-slider {
-  height: 489px;
-  overflow: hidden;
-  position: relative;
-  width: inherit;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: auto;
+.type-wrap__slider-controls-label:hover,
+#slide1:checked ~ .type-wrap__slider-controls > .type-wrap__slider-controls-label,
+#slide2:checked ~ .type-wrap__slider-controls > .type-wrap__slider-controls-label,
+#slide3:checked ~ .type-wrap__slider-controls > .type-wrap__slider-controls-label {
+  background: #000;
 }
 
 .slides {
@@ -390,24 +376,55 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
+  opacity: 0;
+  height: inherit;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  -webkit-transition: opacity ease-in-out .5s, -webkit-transform ease-in-out .5s;
+  transition: opacity ease-in-out .5s, -webkit-transform ease-in-out .5s;
+  transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  transition: transform ease-in-out .5s, opacity ease-in-out .5s, -webkit-transform ease-in-out .5s;
 }
 
 .group2 {
   position: absolute;
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
+  opacity: 0;
+  height: inherit;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  -webkit-transition: opacity ease-in-out .5s, -webkit-transform ease-in-out .5s;
+  transition: opacity ease-in-out .5s, -webkit-transform ease-in-out .5s;
+  transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  transition: transform ease-in-out .5s, opacity ease-in-out .5s, -webkit-transform ease-in-out .5s;
 }
 
 .group3 {
   position: absolute;
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
+  opacity: 0;
+  height: inherit;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  -webkit-transition: opacity ease-in-out .5s, -webkit-transform ease-in-out .5s;
+  transition: opacity ease-in-out .5s, -webkit-transform ease-in-out .5s;
+  transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  transition: transform ease-in-out .5s, opacity ease-in-out .5s, -webkit-transform ease-in-out .5s;
 }
 
 .slide1 {
@@ -805,4 +822,10 @@ a {
 .slide9-contain {
   position: absolute;
   margin-top: 115%;
+}
+
+#slide1:checked ~ .type-wrap__slider-slider > .group1, #slide2:checked ~ .type-wrap__slider-slider > .group2, #slide3:checked ~ .type-wrap__slider-slider > .group3 {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }

@@ -23,7 +23,7 @@
                 cursor: pointer
                 display: inline-block
                 height: 8px
-                margin: 15px 12px 0 16px
+                margin: 75px 12px 0 16px
                 position: relative
                 width: 8px
                 -webkit-border-radius: 50%
@@ -34,41 +34,33 @@
                 -moz-transition: background ease-in-out .5s
                 -o-transition: background ease-in-out .5s
                 transition: background ease-in-out .5s
-            &-label::after
+            &-label:after
                 border: 2px solid #000
-                content: " "
+                content: ""
                 display: block
                 height: 12px
                 left: -4px
-                position: absolute
+                position: relative
                 top: -4px
                 width: 12px
                 -webkit-border-radius: 50%
                 -moz-border-radius: 50%
                 -o-border-radius: 50%
-                border-radius: 50%  
-            &-label::hover
-                #slide1:checked ~ .controls label:nth-of-type(1), #slide2:checked ~ .controls label:nth-of-type(2), #slide3:checked ~ .controls label:nth-of-type(3)
-                    background: #ddd
-        &-buttons
-            display: flex
-            position: relative
-            align-content: center
-            justify-content: space-between
-            width: 92px
-            height: 32px
-            margin: auto
-            top: 94%
-        &-buttons > input
-            display: none
+                border-radius: 50%
         &-slider
-            height: 489px
+            height: 420px
             overflow: hidden
             position: relative
-            width: inherit
             display: flex
             justify-content: space-between
             margin: auto
+.type-wrap__slider-buttons-but
+    display: none
+.type-wrap__slider-controls-label:hover, 
+#slide1:checked ~ .type-wrap__slider-controls > .type-wrap__slider-controls-label, 
+#slide2:checked ~ .type-wrap__slider-controls > .type-wrap__slider-controls-label, 
+#slide3:checked ~ .type-wrap__slider-controls > .type-wrap__slider-controls-label
+    background: #000
 .slides
     width: 335px
     height: inherit
@@ -77,16 +69,46 @@
     display: flex
     justify-content: space-between
     width: 100%
+    opacity: 0
+    height: inherit
+    -webkit-transform: scale(1.5)
+    -moz-transform: scale(1.5)
+    -o-transform: scale(1.5)
+    transform: scale(1.5)
+    -webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s
+    -moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s
+    -o-transition: transform ease-in-out .5s, opacity ease-in-out .5s
+    transition: transform ease-in-out .5s, opacity ease-in-out .5s
 .group2
     position: absolute
-    display: none
+    display: flex
     justify-content: space-between
     width: 100%
+    opacity: 0
+    height: inherit
+    -webkit-transform: scale(1.5)
+    -moz-transform: scale(1.5)
+    -o-transform: scale(1.5)
+    transform: scale(1.5)
+    -webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s
+    -moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s
+    -o-transition: transform ease-in-out .5s, opacity ease-in-out .5s
+    transition: transform ease-in-out .5s, opacity ease-in-out .5s
 .group3
     position: absolute
-    display: none
+    display: flex
     justify-content: space-between
     width: 100%
+    opacity: 0
+    height: inherit
+    -webkit-transform: scale(1.5)
+    -moz-transform: scale(1.5)
+    -o-transform: scale(1.5)
+    transform: scale(1.5)
+    -webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s
+    -moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s
+    -o-transition: transform ease-in-out .5s, opacity ease-in-out .5s
+    transition: transform ease-in-out .5s, opacity ease-in-out .5s
 .slide1
     position: relative
     color: #262B39
@@ -379,3 +401,9 @@
     &-contain
         position: absolute
         margin-top: 115%
+#slide1:checked ~ .type-wrap__slider-slider > .group1, #slide2:checked ~ .type-wrap__slider-slider > .group2, #slide3:checked ~ .type-wrap__slider-slider > .group3
+	opacity: 1
+	-webkit-transform: scale(1)
+	-moz-transform: scale(1)
+	-o-transform: scale(1)
+	transform: scale(1)
