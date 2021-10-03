@@ -36,6 +36,12 @@
   display: inline-block;
 }
 
+.achieves-wrap {
+  max-width: 80.5%;
+  margin: auto;
+  text-align: justify;
+}
+
 @font-face {
   font-family: 'Proxima Nova Light';
   src: url("../fonts/ProximaNova-Light.eot");
@@ -108,6 +114,12 @@ a {
 
 .type-wrap__title {
   font-family: 'Manrope-Bold', sans-serif;
+}
+
+.achieves {
+  background-color: #262B39;
+  height: 1806px;
+  max-width: 100%;
 }
 
 .logo_navbar {
@@ -828,4 +840,108 @@ a {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
+}
+
+.achieves-back {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(12.6%, #262B39), color-stop(54.96%, rgba(0, 0, 0, 0))), url("/public_html/img/achieves.jpg"), no-repeat;
+  background: linear-gradient(to top, #262B39 12.6%, rgba(0, 0, 0, 0) 54.96%), url("/public_html/img/achieves.jpg"), no-repeat;
+  background-position: center;
+}
+
+.achieves-wrap {
+  height: 1806px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.achieves-wrap-title {
+  position: relative;
+}
+
+.achieves-wrap-title-text {
+  color: #2B2D36;
+  position: absolute;
+  font-size: 64px;
+  font-family: 'Manrope-Bold', sans-serif;
+  margin-top: 108px;
+  margin-left: 33px;
+}
+
+.achieves-wrap-title-obr {
+  position: absolute;
+  border-radius: 128px / 57px;
+  width: 256.53px;
+  height: 117.48px;
+  opacity: 0.8;
+  border: 1px solid #2B2D36;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transform: rotate(-12.54deg);
+          transform: rotate(-12.54deg);
+  margin-top: 108px;
+}
+
+.achieves-wrap-cont1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 303px;
+  color: white;
+  width: 100%;
+}
+
+.achieves-wrap-cont1-left-block {
+  display: inline-block;
+  width: 450px;
+}
+
+.achieves-wrap-cont1-left-block__back {
+  width: 450px;
+  height: 241px;
+  background-image: url(/public_html/img/cont1-left-block__back.png);
+}
+
+.achieves-wrap-cont1-left-block__title {
+  font-size: 32px;
+  margin-top: 57px;
+}
+
+.achieves-wrap-cont1-left-block__text {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.achieves-wrap-cont1-right-block {
+  display: inline-block;
+  width: 450px;
+}
+
+.achieves-wrap-cont1-right-block__back {
+  width: 450px;
+  height: 241px;
+  background-image: url(/public_html/img/cont1-left-block__back.png);
+}
+
+.achieves-wrap-cont1-right-block__title {
+  font-size: 32px;
+  margin-top: 57px;
+}
+
+.achieves-wrap-cont1-right-block__text {
+  margin-top: 20px;
+  font-size: 16px;
 }
