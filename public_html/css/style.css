@@ -902,6 +902,7 @@ a {
   margin-top: 303px;
   color: white;
   width: 100%;
+  text-align: left;
 }
 
 .achieves-wrap-cont1-left-block {
@@ -928,12 +929,13 @@ a {
 .achieves-wrap-cont1-right-block {
   display: inline-block;
   width: 450px;
+  margin-top: 21px;
 }
 
 .achieves-wrap-cont1-right-block__back {
-  width: 450px;
-  height: 241px;
-  background-image: url(/public_html/img/cont1-left-block__back.png);
+  width: 448px;
+  height: 239px;
+  background-image: url(/public_html/img/cont1-right-block__back.png);
 }
 
 .achieves-wrap-cont1-right-block__title {
