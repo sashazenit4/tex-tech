@@ -458,6 +458,11 @@ a {
   margin-left: 20px;
 }
 
+.slide1-contain {
+  position: absolute;
+  margin-top: 115%;
+}
+
 .slide2 {
   position: relative;
   color: #027E72;
@@ -490,6 +495,11 @@ a {
 
 .slide2-ic3 {
   margin-left: 20px;
+}
+
+.slide2-contain {
+  position: absolute;
+  margin-top: 115%;
 }
 
 .slide2-obr {
@@ -530,6 +540,11 @@ a {
   width: 150px;
   position: absolute;
   margin-top: 93%;
+}
+
+.slide3-contain {
+  position: absolute;
+  margin-top: 115%;
 }
 
 .slide3-obr {
@@ -582,6 +597,11 @@ a {
   width: 130px;
 }
 
+.slide4-contain {
+  position: absolute;
+  margin-top: 115%;
+}
+
 .slide5 {
   position: relative;
 }
@@ -616,6 +636,11 @@ a {
 
 .slide5-icons {
   width: 130px;
+}
+
+.slide5-contain {
+  position: absolute;
+  margin-top: 115%;
 }
 
 .slide6 {
@@ -654,6 +679,11 @@ a {
   width: 130px;
 }
 
+.slide6-contain {
+  position: absolute;
+  margin-top: 115%;
+}
+
 .slide7 {
   position: relative;
 }
@@ -688,6 +718,11 @@ a {
 
 .slide7-icons {
   width: 130px;
+}
+
+.slide7-contain {
+  position: absolute;
+  margin-top: 115%;
 }
 
 .slide8 {
@@ -726,6 +761,11 @@ a {
   width: 130px;
 }
 
+.slide8-contain {
+  position: absolute;
+  margin-top: 115%;
+}
+
 .slide9 {
   position: relative;
 }
@@ -760,4 +800,9 @@ a {
 
 .slide9-icons {
   width: 130px;
+}
+
+.slide9-contain {
+  position: absolute;
+  margin-top: 115%;
 }
