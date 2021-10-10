@@ -149,7 +149,7 @@ a {
 .about_us {
   width: 100%;
   height: 517px;
-  background: url("/public_html/img/about_back.jpg");
+  background: url("../img/about_back.jpg");
 }
 
 .partners {
@@ -883,8 +883,8 @@ a {
   width: 100%;
   height: 500px;
   position: absolute;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(12.6%, #262B39), color-stop(54.96%, rgba(0, 0, 0, 0))), url("/public_html/img/achieves.jpg"), no-repeat;
-  background: linear-gradient(to top, #262B39 12.6%, rgba(0, 0, 0, 0) 54.96%), url("/public_html/img/achieves.jpg"), no-repeat;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(12.6%, #262B39), color-stop(54.96%, rgba(0, 0, 0, 0))), url("../img/achieves.jpg"), no-repeat;
+  background: linear-gradient(to top, #262B39 12.6%, rgba(0, 0, 0, 0) 54.96%), url("../img/achieves.jpg"), no-repeat;
   background-position: center;
 }
 
@@ -958,7 +958,7 @@ a {
 .achieves-wrap-cont1-left-block__back {
   width: 450px;
   height: 241px;
-  background-image: url(/public_html/img/cont1-left-block__back.png);
+  background-image: url(../img/cont1-left-block__back.png);
 }
 
 .achieves-wrap-cont1-left-block__title {
@@ -980,7 +980,7 @@ a {
 .achieves-wrap-cont1-right-block__back {
   width: 448px;
   height: 239px;
-  background-image: url(/public_html/img/cont1-right-block__back.png);
+  background-image: url(../img/cont1-right-block__back.png);
 }
 
 .achieves-wrap-cont1-right-block__title {
@@ -1017,7 +1017,7 @@ a {
 .achieves-wrap-cont2-left-block__back {
   width: 450px;
   height: 241px;
-  background-image: url(/public_html/img/cont2-left-block__back.png);
+  background-image: url(../img/cont2-left-block__back.png);
 }
 
 .achieves-wrap-cont2-left-block__title {
@@ -1039,7 +1039,7 @@ a {
 .achieves-wrap-cont2-right-block__back {
   width: 448px;
   height: 239px;
-  background-image: url(/public_html/img/cont2-right-block__back.png);
+  background-image: url(../img/cont2-right-block__back.png);
 }
 
 .achieves-wrap-cont2-right-block__title {
@@ -1076,7 +1076,7 @@ a {
 .achieves-wrap-cont3-left-block__back {
   width: 450px;
   height: 241px;
-  background-image: url(/public_html/img/cont3-left-block__back.png);
+  background-image: url(../img/cont3-left-block__back.png);
 }
 
 .achieves-wrap-cont3-left-block__title {
@@ -1098,7 +1098,7 @@ a {
 .achieves-wrap-cont3-right-block__back {
   width: 448px;
   height: 239px;
-  background-image: url(/public_html/img/cont3-right-block__back.png);
+  background-image: url(../img/cont3-right-block__back.png);
 }
 
 .achieves-wrap-cont3-right-block__title {
