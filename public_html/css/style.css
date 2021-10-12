@@ -60,6 +60,12 @@
   text-align: justify;
 }
 
+.form-wrap {
+  max-width: 52%;
+  margin: auto;
+  text-align: justify;
+}
+
 @font-face {
   font-family: 'Proxima Nova Light';
   src: url("../fonts/ProximaNova-Light.eot");
@@ -149,13 +155,23 @@ a {
 .about_us {
   width: 100%;
   height: 517px;
-  background: url("/public_html/img/about_back.jpg");
+  background: url("../img/about_back.jpg");
 }
 
 .partners {
   width: 100%;
   height: 538px;
   background: white;
+}
+
+.form {
+  width: 100%;
+  height: 753px;
+  color: white;
+  background-size: cover;
+  background-image: url("../img/form-fon.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .logo_navbar {
@@ -261,6 +277,13 @@ a {
   width: 100%;
 }
 
+.wrap-title__sub-title {
+  font-family: 'AeonikPro-Light', sans-serif;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
 .wrap-title__main-title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -271,7 +294,7 @@ a {
           justify-content: center;
   text-align: center;
   color: #262B39;
-  font-size: 120px;
+  font-size: 110px;
 }
 
 .wrap-title__description {
@@ -281,13 +304,13 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
   color: #2B2D36;
   font-size: 16px;
-  top: 12%;
+  top: 5%;
   width: 100%;
 }
 
@@ -296,33 +319,22 @@ a {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  top: 46%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 48%;
   width: 100%;
   text-align: center;
 }
 
-.wrap-title__buttons-take {
+.wrap-title__buttons-more {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #2B2D36;
-  width: 259px;
-  height: 47px;
-  border: 1px solid #2B2D36;
-  color: white;
-  cursor: pointer;
-}
-
-.wrap-title__buttons-achieves {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background-color: #F49F0A;
   border: 1px solid #F49F0A;
   width: 259px;
   height: 47px;
-  color: #2B2D36;
+  color: white;
   cursor: pointer;
 }
 
@@ -883,8 +895,8 @@ a {
   width: 100%;
   height: 500px;
   position: absolute;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(12.6%, #262B39), color-stop(54.96%, rgba(0, 0, 0, 0))), url("/public_html/img/achieves.jpg"), no-repeat;
-  background: linear-gradient(to top, #262B39 12.6%, rgba(0, 0, 0, 0) 54.96%), url("/public_html/img/achieves.jpg"), no-repeat;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(12.6%, #262B39), color-stop(54.96%, rgba(0, 0, 0, 0))), url("../img/achieves.jpg"), no-repeat;
+  background: linear-gradient(to top, #262B39 12.6%, rgba(0, 0, 0, 0) 54.96%), url("../img/achieves.jpg"), no-repeat;
   background-position: center;
 }
 
@@ -945,6 +957,8 @@ a {
   -ms-flex-line-pack: center;
       align-content: center;
   top: 303px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   color: white;
   width: 100%;
   text-align: left;
@@ -958,7 +972,7 @@ a {
 .achieves-wrap-cont1-left-block__back {
   width: 450px;
   height: 241px;
-  background-image: url(/public_html/img/cont1-left-block__back.png);
+  background-image: url(../img/cont1-left-block__back.png);
 }
 
 .achieves-wrap-cont1-left-block__title {
@@ -980,7 +994,7 @@ a {
 .achieves-wrap-cont1-right-block__back {
   width: 448px;
   height: 239px;
-  background-image: url(/public_html/img/cont1-right-block__back.png);
+  background-image: url(../img/cont1-right-block__back.png);
 }
 
 .achieves-wrap-cont1-right-block__title {
@@ -1004,6 +1018,8 @@ a {
   -ms-flex-line-pack: center;
       align-content: center;
   color: white;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
   text-align: left;
   top: 231px;
@@ -1017,7 +1033,7 @@ a {
 .achieves-wrap-cont2-left-block__back {
   width: 450px;
   height: 241px;
-  background-image: url(/public_html/img/cont2-left-block__back.png);
+  background-image: url(../img/cont2-left-block__back.png);
 }
 
 .achieves-wrap-cont2-left-block__title {
@@ -1039,7 +1055,7 @@ a {
 .achieves-wrap-cont2-right-block__back {
   width: 448px;
   height: 239px;
-  background-image: url(/public_html/img/cont2-right-block__back.png);
+  background-image: url(../img/cont2-right-block__back.png);
 }
 
 .achieves-wrap-cont2-right-block__title {
@@ -1063,6 +1079,8 @@ a {
   -ms-flex-line-pack: center;
       align-content: center;
   color: white;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
   text-align: left;
   top: 231px;
@@ -1076,7 +1094,7 @@ a {
 .achieves-wrap-cont3-left-block__back {
   width: 450px;
   height: 241px;
-  background-image: url(/public_html/img/cont3-left-block__back.png);
+  background-image: url(../img/cont3-left-block__back.png);
 }
 
 .achieves-wrap-cont3-left-block__title {
@@ -1098,7 +1116,7 @@ a {
 .achieves-wrap-cont3-right-block__back {
   width: 448px;
   height: 239px;
-  background-image: url(/public_html/img/cont3-right-block__back.png);
+  background-image: url(../img/cont3-right-block__back.png);
 }
 
 .achieves-wrap-cont3-right-block__title {
@@ -1288,4 +1306,49 @@ a {
 .partners-wrap__logos > img {
   height: auto;
   width: auto;
+}
+
+.form-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-wrap__group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.form-wrap__contact {
+  width: 228px;
+}
+
+.form-wrap__form {
+  width: 383px;
+}
+
+.subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 20%;
+  font-size: 14px;
+  position: relative;
+  margin: auto;
+}
+
+.subtitle-name {
+  max-width: 134px;
+}
+
+.subtitle-INN {
+  max-width: 123px;
 }
