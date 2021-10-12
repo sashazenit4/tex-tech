@@ -277,6 +277,13 @@ a {
   width: 100%;
 }
 
+.wrap-title__sub-title {
+  font-family: 'AeonikPro-Light', sans-serif;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
 .wrap-title__main-title {
   display: -webkit-box;
   display: -ms-flexbox;
