@@ -267,7 +267,7 @@ a {
 
 .menu-button {
   display: inline-block;
-  max-width: 146px;
+  max-width: 200px;
   margin-right: 90px;
   cursor: pointer;
 }
@@ -1309,46 +1309,98 @@ a {
 }
 
 .form-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
+  position: relative;
+  height: 600px;
 }
 
 .form-wrap__group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  position: absolute;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 100%;
+  margin: 30% auto;
 }
 
 .form-wrap__contact {
-  width: 228px;
-}
-
-.form-wrap__form {
-  width: 383px;
-}
-
-.subtitle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  max-width: 20%;
-  font-size: 14px;
-  position: relative;
+  width: 50%;
+  height: 320px;
   margin: auto;
 }
 
+.form-wrap__form {
+  width: 50%;
+  height: 320px;
+  margin: auto;
+}
+
+.form-wrap__buttons {
+  height: 300px;
+}
+
+.form-wrap__buttons-name {
+  background-color: transparent;
+  border: none;
+}
+
+.form-wrap__buttons-phone {
+  background-color: transparent;
+  border: none;
+}
+
+.form-wrap__buttons-message {
+  background-color: transparent;
+  border: none;
+}
+
+.form-wrap__buttons-submit {
+  background-color: transparent;
+  border: none;
+}
+
+.form-wrap__labels-name {
+  display: block;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.form-wrap__labels-phone {
+  display: block;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.form-wrap__labels-text {
+  display: block;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.form-wrap__labels-button {
+  display: block;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.subtitle {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  font-size: 14px;
+  margin: 100% auto;
+}
+
 .subtitle-name {
-  max-width: 134px;
+  position: relative;
+  width: 150px;
 }
 
 .subtitle-INN {
-  max-width: 123px;
+  position: relative;
+  width: 150px;
 }
