@@ -123,7 +123,7 @@ a {
   margin: auto;
   height: 839px;
   background-size: cover;
-  background-image: url(https://ic.wampi.ru/2021/09/28/pexels-yan-krukov-4496963.png);
+  background-image: url("../img/wrap-header.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -237,6 +237,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   color: #027E72;
+  font-family: 'AeonikPro-Regular', sans-serif;
 }
 
 .navbar__mobile {
@@ -274,14 +275,29 @@ a {
 
 .wrap-title {
   height: 788px;
-  width: 100%;
+}
+
+.wrap-title__sub {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 83%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 14px auto;
 }
 
 .wrap-title__sub-title {
   font-family: 'AeonikPro-Light', sans-serif;
-  width: 100%;
-  text-align: center;
-  margin: auto;
+  position: relative;
+  display: block;
+  width: auto;
+  max-width: 350px;
+  font-size: 25px;
 }
 
 .wrap-title__main-title {
@@ -294,24 +310,16 @@ a {
           justify-content: center;
   text-align: center;
   color: #262B39;
-  font-size: 110px;
+  font-size: 120px;
 }
 
 .wrap-title__description {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  font-family: 'AeonikPro-Light', sans-serif;
   position: relative;
   color: #2B2D36;
-  font-size: 16px;
-  top: 5%;
-  width: 100%;
+  font-size: 25px;
+  display: block;
+  max-width: 300px;
 }
 
 .wrap-title__buttons {
@@ -322,7 +330,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  top: 48%;
+  top: 40%;
   width: 100%;
   text-align: center;
 }

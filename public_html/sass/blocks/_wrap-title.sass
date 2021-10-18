@@ -1,32 +1,38 @@
 .wrap-title
     height: 788px
-    width: 100%
+    &__sub
+        position: relative
+        display: flex
+        width: 83%
+        justify-content: space-between
+        flex-wrap: wrap
+        margin:  14px auto
     &__sub-title
         +light
-        width: 100%
-        text-align: center
-        margin: auto
+        position: relative
+        display: block
+        width: auto
+        max-width: 350px
+        font-size: 25px
     &__main-title
         display: flex
         position: relative
         justify-content: center
         text-align: center
         color: #262B39
-        font-size: 110px
+        font-size: 120px
     &__description
-        display: flex
-        align-items: center
-        justify-content: center
+        +light
         position: relative
         color: #2B2D36
-        font-size: 16px
-        top: 5%
-        width: 100%
+        font-size: 25px
+        display: block
+        max-width: 300px 
     &__buttons
         display: flex
         position: relative
         justify-content: center
-        top: 48%
+        top: 40%
         width: 100%
         text-align: center
         &-more
