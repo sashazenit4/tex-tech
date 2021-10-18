@@ -220,6 +220,7 @@ a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   color: #41485A;
+  min-width: 200px;
 }
 
 .navbar-wrap-a {
@@ -275,6 +276,7 @@ a {
 
 .wrap-title {
   height: 788px;
+  margin-top: -40px;
 }
 
 .wrap-title__sub {
