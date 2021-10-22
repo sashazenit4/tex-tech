@@ -3,7 +3,6 @@
           box-sizing: border-box;
 }
 
-
 .container {
   max-width: 95.8%;
   margin: auto;
@@ -122,7 +121,7 @@ a {
 .header {
   max-width: 100%;
   margin: auto;
-  height: 839px;
+  height: 1000px;
   background-size: cover;
   background-image: url("../img/wrap-header.png");
   background-repeat: no-repeat;
@@ -277,7 +276,6 @@ a {
 
 .wrap-title {
   height: 788px;
-  margin-top: -40px;
 }
 
 .wrap-title__sub {
