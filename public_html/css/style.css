@@ -121,7 +121,7 @@ a {
 .header {
   max-width: 100%;
   margin: auto;
-  height: 1000px;
+  min-height: 850px;
   background-size: cover;
   background-image: url("../img/wrap-header.png");
   background-repeat: no-repeat;
@@ -143,13 +143,13 @@ a {
 .achieves {
   background-color: #262B39;
   height: 2331px;
-  max-width: 100%;
+  width: 100%;
 }
 
 .technology {
   background-color: #027E72;
   height: 643px;
-  max-width: 100%;
+  width: 100%;
 }
 
 .about_us {
@@ -426,9 +426,9 @@ a {
 }
 
 .type-wrap__slider-controls-label:hover,
-#slide1:checked ~ .type-wrap__slider-controls > .type-wrap__slider-controls-label,
-#slide2:checked ~ .type-wrap__slider-controls > .type-wrap__slider-controls-label,
-#slide3:checked ~ .type-wrap__slider-controls > .type-wrap__slider-controls-label {
+#slide1:checked ~ .type-wrap__slider-controls label:nth-of-type(1),
+#slide2:checked ~ .type-wrap__slider-controls label:nth-of-type(2),
+#slide3:checked ~ .type-wrap__slider-controls label:nth-of-type(3) {
   background: #000;
 }
 
