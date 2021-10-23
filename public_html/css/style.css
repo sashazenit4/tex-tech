@@ -142,31 +142,31 @@ a {
 
 .achieves {
   background-color: #262B39;
-  height: 2331px;
+  min-height: 2331px;
   width: 100%;
 }
 
 .technology {
   background-color: #027E72;
-  height: 643px;
+  min-height: 643px;
   width: 100%;
 }
 
 .about_us {
   width: 100%;
-  height: 517px;
+  min-height: 517px;
   background: url("../img/about_back.jpg");
 }
 
 .partners {
   width: 100%;
-  height: 538px;
+  min-height: 538px;
   background: white;
 }
 
 .form {
   width: 100%;
-  height: 753px;
+  min-height: 753px;
   color: white;
   background-size: cover;
   background-image: url("../img/form-fon.png");
@@ -227,6 +227,10 @@ a {
   color: #41485A;
 }
 
+.navbar-wrap-gamburger {
+  display: none;
+}
+
 .navbar__contacts {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -257,20 +261,18 @@ a {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: transparent;
   font-size: 20px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-left: 90px;
+  min-width: 60%;
+  margin-left: 30px;
 }
 
 .menu-button {
-  display: inline-block;
-  max-width: 200px;
-  margin-right: 90px;
   cursor: pointer;
 }
 
@@ -1412,4 +1414,61 @@ a {
 .subtitle-INN {
   position: relative;
   width: 150px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-wrap-gamburger {
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+  .navbar-wrap-gamburger:before, .navbar-wrap-gamburger:after {
+    content: '';
+    background-color: #027E72;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top: 0;
+  }
+  .navbar-wrap-gamburger:before {
+    top: 0;
+  }
+  .navbar-wrap-gamburger:after {
+    bottom: 0;
+  }
+}
+
+@media only screen and (min-device-width: 1024.2px) and (max-device-width: 1223.7px) {
+  .navbar-wrap-gamburger {
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 30px;
+  }
+  .navbar-wrap-gamburger span {
+    content: '';
+    background-color: #027E72;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    top: 15px;
+  }
+  .navbar-wrap-gamburger:before, .navbar-wrap-gamburger:after {
+    content: '';
+    background-color: #027E72;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    top: 0;
+  }
+  .navbar-wrap-gamburger:before {
+    top: 0;
+  }
+  .navbar-wrap-gamburger:after {
+    top: 30px;
+  }
 }
