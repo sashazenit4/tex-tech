@@ -11,16 +11,13 @@
     @include mobile_title-sub-middle;
 }
 
-@media only screen and (min-device-width : 880px) and (max-device-width : 1223.9px)  {
+@media only screen and (min-device-width : 880px) and (max-device-width : 1235.9px)  {
     @include mobile_header;
     @include mobile_title-middle;
 }
 
-@media only screen and (min-device-width : 1224px) and (max-device-width : 1364.9px)  {
-    @include mobile_title-middle;
-}
 
-@media only screen and (min-width : 1224px)  {
+@media only screen and (min-width : 1236px)  {
     
 }
 

@@ -204,6 +204,7 @@ a {
 
 .navbar {
   color: #41485A;
+  width: 100%;
 }
 
 .navbar-wrap {
@@ -255,16 +256,16 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: transparent;
   font-size: 20px;
-  min-width: 80%;
+  min-width: 88%;
   position: relative;
   left: 30px;
 }
@@ -1428,11 +1429,38 @@ a {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .navbar-wrap {
+    position: fixed;
+    top: 0;
+    left: 2.5%;
+    width: 95%;
+    z-index: 50;
+  }
+  .navbar:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-color: #fff;
+    z-index: 1;
+  }
   .menu {
-    display: none;
+    display: block;
+    right: 0;
+  }
+  .menu-buttons {
+    z-index: 1;
+    display: block;
+    padding: 0;
+  }
+  .menu-button {
+    margin: 0 0 40px 0;
   }
   .navbar__contacts {
-    display: none;
+    display: block;
+    padding: 0;
   }
   .navbar-wrap-gamburger {
     display: block;
@@ -1463,6 +1491,7 @@ a {
     font-size: 45px;
     text-align: center;
     width: 100%;
+    margin-top: 130px;
   }
   .wrap-title__sub-title, .wrap-title__description {
     font-size: 16px;
@@ -1475,7 +1504,7 @@ a {
     background-position: center;
   }
   .header {
-    background-color: #DDDEE2;
+    background-color: #dfe0e4;
     background-image: none;
   }
   .wrap-title__buttons-more {
@@ -1484,11 +1513,38 @@ a {
 }
 
 @media only screen and (min-device-width: 480.1px) and (max-device-width: 879px) {
+  .navbar-wrap {
+    position: fixed;
+    top: 0;
+    left: 2.5%;
+    width: 95%;
+    z-index: 50;
+  }
+  .navbar:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-color: #fff;
+    z-index: 1;
+  }
   .menu {
-    display: none;
+    display: block;
+    right: 0;
+  }
+  .menu-buttons {
+    z-index: 1;
+    display: block;
+    padding: 0;
+  }
+  .menu-button {
+    margin: 0 0 40px 0;
   }
   .navbar__contacts {
-    display: none;
+    display: block;
+    padding: 0;
   }
   .navbar-wrap-gamburger {
     display: block;
@@ -1517,26 +1573,54 @@ a {
   .wrap-title__main-title {
     font-size: 60px;
     text-align: center;
+    margin-top: 130px;
   }
   .wrap-title {
     background-image: url("../img/wrap-header.png");
     background-position: center;
   }
   .header {
-    background-color: #DDDEE2;
+    background-color: #dfe0e4;
     background-image: none;
   }
   .wrap-title__buttons-more {
-    margin-top: 700px;
+    margin-top: 200px;
   }
 }
 
-@media only screen and (min-device-width: 880px) and (max-device-width: 1223.9px) {
+@media only screen and (min-device-width: 880px) and (max-device-width: 1235.9px) {
+  .navbar-wrap {
+    position: fixed;
+    top: 0;
+    left: 2.5%;
+    width: 95%;
+    z-index: 50;
+  }
+  .navbar:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-color: #fff;
+    z-index: 1;
+  }
   .menu {
-    display: none;
+    display: block;
+    right: 0;
+  }
+  .menu-buttons {
+    z-index: 1;
+    display: block;
+    padding: 0;
+  }
+  .menu-button {
+    margin: 0 0 40px 0;
   }
   .navbar__contacts {
-    display: none;
+    display: block;
+    padding: 0;
   }
   .navbar-wrap-gamburger {
     display: block;
@@ -1565,34 +1649,17 @@ a {
   .wrap-title__main-title {
     font-size: 72px;
     text-align: center;
+    margin-top: 130px;
   }
   .wrap-title {
     background-image: url("../img/wrap-header.png");
     background-position: center;
   }
   .header {
-    background-color: #DDDEE2;
+    background-color: #dfe0e4;
     background-image: none;
   }
   .wrap-title__buttons-more {
-    margin-top: 700px;
-  }
-}
-
-@media only screen and (min-device-width: 1224px) and (max-device-width: 1364.9px) {
-  .wrap-title__main-title {
-    font-size: 72px;
-    text-align: center;
-  }
-  .wrap-title {
-    background-image: url("../img/wrap-header.png");
-    background-position: center;
-  }
-  .header {
-    background-color: #DDDEE2;
-    background-image: none;
-  }
-  .wrap-title__buttons-more {
-    margin-top: 700px;
+    margin-top: 200px;
   }
 }
