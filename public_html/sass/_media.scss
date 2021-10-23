@@ -1,21 +1,24 @@
 @import 'blocks/header_mixins';
+@import 'blocks/title_mixins';
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    @include mobile_header; 
+    @include mobile_header;
+    @include mobile_title-light;
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (min-device-width: 480.1px) and (max-device-width : 879px)  {
     @include mobile_header;
-}
-
-@media only screen and (max-device-width : 879px)  {
-    @include mobile_header;
+    @include mobile_title-middle;
 }
 
 @media only screen and (min-device-width : 880px) and (max-device-width : 1223.9px)  {
     @include mobile_header;
+    @include mobile_title-middle;
 }
 
+@media only screen and (min-device-width : 1224px) and (max-device-width : 1364.9px)  {
+    @include mobile_title-middle;
+}
 
 @media only screen and (min-width : 1224px)  {
     

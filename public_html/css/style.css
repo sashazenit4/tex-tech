@@ -293,7 +293,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 83%;
+  width: inherit;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -341,9 +341,9 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  top: 40%;
   width: 100%;
   text-align: center;
+  margin-top: 20%;
 }
 
 .wrap-title__buttons-more {
@@ -1455,9 +1455,18 @@ a {
   .navbar-wrap-gamburger::after {
     bottom: -6px;
   }
+  .wrap-title__main-title {
+    font-family: "AeonikPro-Light";
+    font-size: 45px;
+    text-align: center;
+    width: 100%;
+  }
+  .wrap-title__sub {
+    margin-top: 260px;
+  }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-device-width: 480.1px) and (max-device-width: 879px) {
   .menu {
     display: none;
   }
@@ -1488,38 +1497,12 @@ a {
   .navbar-wrap-gamburger::after {
     bottom: -6px;
   }
-}
-
-@media only screen and (max-device-width: 879px) {
-  .menu {
-    display: none;
+  .wrap-title__main-title {
+    font-size: 72px;
+    text-align: left;
   }
-  .navbar__contacts {
-    display: none;
-  }
-  .navbar-wrap-gamburger {
-    display: block;
-    position: relative;
-    width: 20px;
-    height: 12px;
-  }
-  .navbar-wrap-gamburger span, .navbar-wrap-gamburger::before, .navbar-wrap-gamburger::after {
-    content: '';
-    background-color: #027E72;
-    position: absolute;
-    width: 100%;
-    height: 1.5px;
-    left: 0;
-    top: 0;
-  }
-  .navbar-wrap-gamburger span {
-    top: 6px;
-  }
-  .navbar-wrap-gamburger::before {
-    top: -6px;
-  }
-  .navbar-wrap-gamburger::after {
-    bottom: -6px;
+  .wrap-title__sub {
+    margin-top: 260px;
   }
 }
 
@@ -1553,5 +1536,22 @@ a {
   }
   .navbar-wrap-gamburger::after {
     bottom: -6px;
+  }
+  .wrap-title__main-title {
+    font-size: 72px;
+    text-align: left;
+  }
+  .wrap-title__sub {
+    margin-top: 260px;
+  }
+}
+
+@media only screen and (min-device-width: 1224px) and (max-device-width: 1364.9px) {
+  .wrap-title__main-title {
+    font-size: 72px;
+    text-align: left;
+  }
+  .wrap-title__sub {
+    margin-top: 260px;
   }
 }

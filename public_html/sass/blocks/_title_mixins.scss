@@ -1,0 +1,21 @@
+@mixin mobile_title-middle {
+    .wrap-title__main-title {
+        font-size: 72px;
+        text-align: left;
+    }
+    .wrap-title__sub {
+        margin-top: 260px
+    }
+}
+
+@mixin mobile_title-light {
+    .wrap-title__main-title {
+        font-family: "AeonikPro-Light";
+        font-size: 45px;
+        text-align: center;
+        width: 100%;
+    }
+    .wrap-title__sub {
+        margin-top: 260px
+    }
+}
