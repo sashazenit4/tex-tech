@@ -29,23 +29,29 @@
         &-gamburger
             display: none
     &__contacts
+        display: flex
         justify-content: space-between
         align-items: center
-        display: flex
         color: #027E72
         +bold
+        width: 350px
+        margin: auto
     &__mobile
-        margin-right: 13px
 .menu
     display: flex
     flex-direction: row
-    align-items: center
+    align-items: stretch
     text-align: center
     justify-content: space-between
     background-color: transparent
     font-size: 20px
-    flex-wrap: wrap
-    min-width: 60%
-    margin-left: 30px
+    min-width: 80%
+    position: relative
+    left: 30px
+    &-buttons
+        display: flex
+        min-width: 70%
+        justify-content: space-between
     &-button
         cursor: pointer
+        margin-right: 20px 
