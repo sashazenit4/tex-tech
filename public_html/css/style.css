@@ -918,8 +918,8 @@ a {
   width: 100%;
   height: 500px;
   position: absolute;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(12.6%, #262B39), color-stop(54.96%, rgba(0, 0, 0, 0))), url("../img/achieves.jpg"), no-repeat;
-  background: linear-gradient(to top, #262B39 12.6%, rgba(0, 0, 0, 0) 54.96%), url("../img/achieves.jpg"), no-repeat;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(12.96%, #262B39), color-stop(54.96%, rgba(0, 0, 0, 0))), url("../img/achieves.jpg"), no-repeat;
+  background: linear-gradient(to top, #262B39 12.96%, rgba(0, 0, 0, 0) 54.96%), url("../img/achieves.jpg"), no-repeat;
   background-position: center;
 }
 
@@ -929,6 +929,10 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -936,6 +940,7 @@ a {
 
 .achieves-wrap-title {
   position: relative;
+  width: 100%;
 }
 
 .achieves-wrap-title-text {
@@ -967,6 +972,8 @@ a {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .achieves-wrap-cont1 {
@@ -996,6 +1003,8 @@ a {
   width: 450px;
   height: 241px;
   background-image: url(../img/cont1-left-block__back.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
 .achieves-wrap-cont1-left-block__title {
@@ -1018,6 +1027,8 @@ a {
   width: 448px;
   height: 239px;
   background-image: url(../img/cont1-right-block__back.png);
+  background-position: left;
+  background-repeat: no-repeat;
 }
 
 .achieves-wrap-cont1-right-block__title {
@@ -1057,6 +1068,8 @@ a {
   width: 450px;
   height: 241px;
   background-image: url(../img/cont2-left-block__back.png);
+  background-position: left;
+  background-repeat: no-repeat;
 }
 
 .achieves-wrap-cont2-left-block__title {
@@ -1072,13 +1085,15 @@ a {
 .achieves-wrap-cont2-right-block {
   display: inline-block;
   width: 450px;
-  margin-top: 60px;
+  margin-top: 90px;
 }
 
 .achieves-wrap-cont2-right-block__back {
   width: 448px;
   height: 239px;
   background-image: url(../img/cont2-right-block__back.png);
+  background-position: left;
+  background-repeat: no-repeat;
 }
 
 .achieves-wrap-cont2-right-block__title {
@@ -1118,6 +1133,8 @@ a {
   width: 450px;
   height: 241px;
   background-image: url(../img/cont3-left-block__back.png);
+  background-position: left;
+  background-repeat: no-repeat;
 }
 
 .achieves-wrap-cont3-left-block__title {
@@ -1140,6 +1157,8 @@ a {
   width: 448px;
   height: 239px;
   background-image: url(../img/cont3-right-block__back.png);
+  background-position: left;
+  background-repeat: no-repeat;
 }
 
 .achieves-wrap-cont3-right-block__title {
@@ -1538,6 +1557,7 @@ a {
   }
   .wrap-title__sub-title, .wrap-title__description {
     font-size: 16px;
+    margin: auto;
   }
   .wrap-title__description {
     margin-top: 16px;
@@ -1553,6 +1573,14 @@ a {
   .wrap-title__buttons-more {
     margin-top: 300px;
   }
+  .wrap-title__sub {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: column;
+        flex-wrap: column;
+  }
   .technology-wrap__groups {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1561,7 +1589,7 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 149px;
+    margin-top: 270px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -1570,7 +1598,7 @@ a {
   }
   .technology-wrap__title {
     font-size: 32px;
-    margin-top: 55px;
+    margin-top: 100px;
   }
   .technology-wrap-gr2 {
     margin-top: 60px;
@@ -1631,7 +1659,6 @@ a {
   }
   .achieves-wrap-title-text {
     font-size: 32px;
-    top: 30px;
   }
   .achieves-wrap-conts {
     display: block;
@@ -1677,6 +1704,10 @@ a {
   }
   .about_us-wrap__sign {
     top: 320px;
+  }
+  .achieves-back {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(12.96%, #262B39), color-stop(54.96%, rgba(0, 0, 0, 0))), url("../img/achieves-mobile.png"), no-repeat;
+    background: linear-gradient(to top, #262B39 12.96%, rgba(0, 0, 0, 0) 54.96%), url("../img/achieves-mobile.png"), no-repeat;
   }
 }
 
@@ -1805,7 +1836,7 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 149px;
+    margin-top: 270px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -1814,7 +1845,7 @@ a {
   }
   .technology-wrap__title {
     font-size: 32px;
-    margin-top: 55px;
+    margin-top: 100px;
   }
   .technology-wrap-gr2 {
     margin-top: 60px;
@@ -1875,7 +1906,6 @@ a {
   }
   .achieves-wrap-title-text {
     font-size: 32px;
-    top: 30px;
   }
   .achieves-wrap-conts {
     display: block;
@@ -2049,7 +2079,7 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 149px;
+    margin-top: 270px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -2058,7 +2088,7 @@ a {
   }
   .technology-wrap__title {
     font-size: 32px;
-    margin-top: 55px;
+    margin-top: 100px;
   }
   .technology-wrap-gr2 {
     margin-top: 60px;
@@ -2119,7 +2149,6 @@ a {
   }
   .achieves-wrap-title-text {
     font-size: 32px;
-    top: 30px;
   }
   .achieves-wrap-conts {
     display: block;

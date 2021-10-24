@@ -12,6 +12,9 @@
     @include mobile-types;
     @include mobile-achieves;
     @include mobile-about;
+    .achieves-back {
+        background: linear-gradient(to top, #262B39 12.96%, rgba(0, 0, 0, 0) 54.96%), url('../img/achieves-mobile.png'), no-repeat;
+    }
 }
 
 @media only screen and (min-device-width: 480.1px) and (max-device-width : 879px)  {

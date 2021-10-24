@@ -46,6 +46,7 @@
     }
     .wrap-title__sub-title, .wrap-title__description {    
         font-size: 16px;
+        margin: auto;
     }
     .wrap-title__description {
         margin-top: 16px
@@ -60,5 +61,10 @@
     }
     .wrap-title__buttons-more {
         margin-top: 300px;
+    }
+    .wrap-title__sub {
+        text-align: center;
+        display: flex;
+        flex-wrap: column;
     }
 }
