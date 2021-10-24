@@ -1439,16 +1439,28 @@ a {
   .navbar:before {
     content: '';
     position: absolute;
-    top: 0;
+    top: -100%;
     left: 0;
     width: 100%;
-    height: 110%;
+    height: 100%;
     background-color: #fff;
     z-index: 1;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .navbar.active::before {
+    top: 0;
   }
   .menu {
     display: block;
-    right: 0;
+    text-align: right;
+    position: fixed;
+    top: -100%;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .menu.active {
+    top: 80px;
   }
   .menu-buttons {
     z-index: 1;
@@ -1461,6 +1473,8 @@ a {
   .navbar__contacts {
     display: block;
     padding: 0;
+    width: 100%;
+    text-align: right;
   }
   .navbar-wrap-gamburger {
     display: block;
@@ -1476,6 +1490,8 @@ a {
     height: 1.5px;
     left: 0;
     top: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
   }
   .navbar-wrap-gamburger span {
     top: 6px;
@@ -1485,6 +1501,20 @@ a {
   }
   .navbar-wrap-gamburger::after {
     bottom: -6px;
+  }
+  .navbar-wrap-gamburger.active span {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  .navbar-wrap-gamburger.active::before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 0px;
+  }
+  .navbar-wrap-gamburger.active::after {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    bottom: 2px;
   }
   .wrap-title__main-title {
     font-family: "AeonikPro-Light";
@@ -1523,16 +1553,28 @@ a {
   .navbar:before {
     content: '';
     position: absolute;
-    top: 0;
+    top: -100%;
     left: 0;
     width: 100%;
-    height: 110%;
+    height: 100%;
     background-color: #fff;
     z-index: 1;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .navbar.active::before {
+    top: 0;
   }
   .menu {
     display: block;
-    right: 0;
+    text-align: right;
+    position: fixed;
+    top: -100%;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .menu.active {
+    top: 80px;
   }
   .menu-buttons {
     z-index: 1;
@@ -1545,6 +1587,8 @@ a {
   .navbar__contacts {
     display: block;
     padding: 0;
+    width: 100%;
+    text-align: right;
   }
   .navbar-wrap-gamburger {
     display: block;
@@ -1560,6 +1604,8 @@ a {
     height: 1.5px;
     left: 0;
     top: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
   }
   .navbar-wrap-gamburger span {
     top: 6px;
@@ -1569,6 +1615,20 @@ a {
   }
   .navbar-wrap-gamburger::after {
     bottom: -6px;
+  }
+  .navbar-wrap-gamburger.active span {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  .navbar-wrap-gamburger.active::before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 0px;
+  }
+  .navbar-wrap-gamburger.active::after {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    bottom: 2px;
   }
   .wrap-title__main-title {
     font-size: 60px;
@@ -1599,16 +1659,28 @@ a {
   .navbar:before {
     content: '';
     position: absolute;
-    top: 0;
+    top: -100%;
     left: 0;
     width: 100%;
-    height: 110%;
+    height: 100%;
     background-color: #fff;
     z-index: 1;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .navbar.active::before {
+    top: 0;
   }
   .menu {
     display: block;
-    right: 0;
+    text-align: right;
+    position: fixed;
+    top: -100%;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .menu.active {
+    top: 80px;
   }
   .menu-buttons {
     z-index: 1;
@@ -1621,6 +1693,8 @@ a {
   .navbar__contacts {
     display: block;
     padding: 0;
+    width: 100%;
+    text-align: right;
   }
   .navbar-wrap-gamburger {
     display: block;
@@ -1636,6 +1710,8 @@ a {
     height: 1.5px;
     left: 0;
     top: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
   }
   .navbar-wrap-gamburger span {
     top: 6px;
@@ -1645,6 +1721,20 @@ a {
   }
   .navbar-wrap-gamburger::after {
     bottom: -6px;
+  }
+  .navbar-wrap-gamburger.active span {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  .navbar-wrap-gamburger.active::before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 0px;
+  }
+  .navbar-wrap-gamburger.active::after {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    bottom: 2px;
   }
   .wrap-title__main-title {
     font-size: 72px;

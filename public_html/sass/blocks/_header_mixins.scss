@@ -10,17 +10,30 @@
     .navbar:before {
         content: '';
         position: absolute;
-        top: 0;
+        top: -100%;
         left: 0;
         width: 100%;
-        height: 110%;
+        height: 100%;
         background-color: #fff;
         z-index: 1;
+        transition: all 0.3s ease 0s;
+    }
+
+    .navbar.active::before {
+        top: 0;
     }
 
     .menu {
         display: block;
-        right: 0;
+        text-align: right;
+        position: fixed;
+        top: -100%;
+        transition: all 0.3s ease 0s;
+    }
+
+
+    .menu.active {
+        top: 80px;
     }
 
     .menu-buttons {
@@ -36,6 +49,8 @@
     .navbar__contacts {
         display: block;
         padding: 0;
+        width: 100%;
+        text-align: right;
     }
 
     .navbar-wrap-gamburger {
@@ -53,6 +68,7 @@
         height: 1.5px;
         left: 0;
         top: 0;
+        transition: all 0.3s ease 0s;
     }
 
     .navbar-wrap-gamburger span{
@@ -64,5 +80,18 @@
     }
     .navbar-wrap-gamburger::after {
         bottom: -6px;
+    }
+
+    .navbar-wrap-gamburger.active span{
+        transform: scale(0);
+    }
+
+    .navbar-wrap-gamburger.active::before {
+        transform: rotate(45deg);
+        top: 0px;
+    }
+    .navbar-wrap-gamburger.active::after {
+        transform: rotate(-45deg);
+        bottom: 2px;
     }
 }
