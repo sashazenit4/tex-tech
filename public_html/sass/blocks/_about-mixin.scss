@@ -1,0 +1,18 @@
+@mixin mobile-about {
+    #about {
+        height: 850px;
+    }
+
+    .about_us-wrap {
+        height: 700px;
+        display: block;
+    }
+
+    .about_us-wrap__text {
+        min-height: 400px;
+    }
+
+    .about_us-wrap__sign {
+        top: 320px;
+    }
+}
