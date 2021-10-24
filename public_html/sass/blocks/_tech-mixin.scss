@@ -1,0 +1,22 @@
+@mixin mobile-tech{
+    .technology-wrap__groups {
+        display: flex;
+        flex-direction: column;
+        margin-top: 149px;
+        justify-content: space-between;
+        align-content: center;
+    }
+    .technology-wrap__title {
+        font-size: 32px;
+        margin-top: 55px;
+    }
+
+    .technology-wrap-gr2 {
+        margin-top: 60px;
+    }
+
+    .technology-wrap-gr3 {
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+}

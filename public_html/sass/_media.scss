@@ -1,19 +1,23 @@
 @import 'blocks/header_mixins';
 @import 'blocks/title_mixins';
+@import 'blocks/tech-mixin';
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     @include mobile_header;
     @include mobile_title-light;
+    @include mobile-tech;
 }
 
 @media only screen and (min-device-width: 480.1px) and (max-device-width : 879px)  {
     @include mobile_header;
     @include mobile_title-sub-middle;
+    @include mobile-tech;
 }
 
 @media only screen and (min-device-width : 880px) and (max-device-width : 1235.9px)  {
     @include mobile_header;
     @include mobile_title-middle;
+    @include mobile-tech;
 }
 
 

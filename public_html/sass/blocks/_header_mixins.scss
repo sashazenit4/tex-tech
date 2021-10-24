@@ -1,4 +1,8 @@
 @mixin mobile_header {
+    body.lock {
+        overflow: hidden;
+    }
+
     .navbar-wrap {
         position: fixed;
         top: 0;
