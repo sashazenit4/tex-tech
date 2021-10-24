@@ -1437,7 +1437,7 @@ a {
     top: 0;
     left: 0%;
     width: 100%;
-    z-index: 2;
+    z-index: 4;
     background-color: #e6ebe0;
   }
   .navbar:before {
@@ -1463,6 +1463,7 @@ a {
     background-color: #e6ebe0;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+    z-index: 2;
   }
   .menu.active {
     top: 80px;
@@ -1484,11 +1485,15 @@ a {
   .navbar__email {
     margin-top: 10px;
   }
+  .logo_navbar__logo {
+    margin-left: 20px;
+  }
   .navbar-wrap-gamburger {
     display: block;
     position: relative;
     width: 20px;
     height: 12px;
+    margin-right: 20px;
   }
   .navbar-wrap-gamburger span, .navbar-wrap-gamburger::before, .navbar-wrap-gamburger::after {
     content: '';
@@ -1684,7 +1689,7 @@ a {
     top: 0;
     left: 0%;
     width: 100%;
-    z-index: 2;
+    z-index: 4;
     background-color: #e6ebe0;
   }
   .navbar:before {
@@ -1710,6 +1715,7 @@ a {
     background-color: #e6ebe0;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+    z-index: 2;
   }
   .menu.active {
     top: 80px;
@@ -1731,11 +1737,15 @@ a {
   .navbar__email {
     margin-top: 10px;
   }
+  .logo_navbar__logo {
+    margin-left: 20px;
+  }
   .navbar-wrap-gamburger {
     display: block;
     position: relative;
     width: 20px;
     height: 12px;
+    margin-right: 20px;
   }
   .navbar-wrap-gamburger span, .navbar-wrap-gamburger::before, .navbar-wrap-gamburger::after {
     content: '';
@@ -1923,7 +1933,7 @@ a {
     top: 0;
     left: 0%;
     width: 100%;
-    z-index: 2;
+    z-index: 4;
     background-color: #e6ebe0;
   }
   .navbar:before {
@@ -1949,6 +1959,7 @@ a {
     background-color: #e6ebe0;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+    z-index: 2;
   }
   .menu.active {
     top: 80px;
@@ -1970,11 +1981,15 @@ a {
   .navbar__email {
     margin-top: 10px;
   }
+  .logo_navbar__logo {
+    margin-left: 20px;
+  }
   .navbar-wrap-gamburger {
     display: block;
     position: relative;
     width: 20px;
     height: 12px;
+    margin-right: 20px;
   }
   .navbar-wrap-gamburger span, .navbar-wrap-gamburger::before, .navbar-wrap-gamburger::after {
     content: '';
