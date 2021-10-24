@@ -1,0 +1,41 @@
+@mixin mobile-types{
+    .tex-types{
+        height: 2000px;
+    }
+    .type-wrap__slider {
+        height: 1700px;
+    }
+
+    .type-wrap__slider-slider {
+        height: 1700px;
+    }
+
+    .group1 {
+        display: block;
+        min-height: 2400px;
+        align-content: center;
+        width: 100%;
+    }
+
+    .slide1, .slide2, .slide3, .slide4, .slide5, .slide6, .slide7, .slide8, .slide9 {
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        height: 460px;
+        min-width: 320px;
+        margin: 80px auto;
+    }
+
+    .group2 {
+        display: block;
+        min-height: 2400px;
+        align-content: center;
+        width: 100%;
+    }
+    .group3 {
+        display: block;
+        min-height: 2400px;
+        align-content: center;
+        width: 100%;
+    }
+}

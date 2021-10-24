@@ -1,0 +1,46 @@
+@import 'blocks/header_mixins';
+@import 'blocks/title_mixins';
+@import 'blocks/tech-mixin';
+@import 'blocks/types-mixin';
+@import 'blocks/achieves_mixin';
+@import 'blocks/about-mixin';
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    @include mobile_header;
+    @include mobile_title-light;
+    @include mobile-tech;
+    @include mobile-types;
+    @include mobile-achieves;
+    @include mobile-about;
+}
+
+@media only screen and (min-device-width: 480.1px) and (max-device-width : 879px)  {
+    @include mobile_header;
+    @include mobile_title-sub-middle;
+    @include mobile-tech;
+    @include mobile-types;
+    @include mobile-achieves;
+    @include mobile-about;
+}
+
+@media only screen and (min-device-width : 880px) and (max-device-width : 1235.9px)  {
+    @include mobile_header;
+    @include mobile_title-middle;
+    @include mobile-tech;
+    @include mobile-types;
+    @include mobile-achieves;
+    @include mobile-about;
+}
+
+
+@media only screen and (min-width : 1236px)  {
+    
+}
+
+@media only screen and (min-width : 1824px)  {
+    
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+    
+}

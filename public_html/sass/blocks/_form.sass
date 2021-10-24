@@ -1,21 +1,58 @@
 .form-wrap
-    display: flex
+    display: block
+    position: relative
+    height: 600px
     &__group
         display: flex
-        justify-content: space-between
         width: 100%
+        position: absolute
+        justify-content: space-between
+        margin:  30% auto
     &__contact
-        width: 228px
+        width: 50%
+        height: 320px
+        margin: auto
     &__form
-        width: 383px
+        width: 50%
+        height: 320px
+        margin: auto
+    &__buttons
+        height: 300px
+        &-name
+            background-color: transparent
+            border: none
+        &-phone
+            background-color: transparent
+            border: none
+        &-message
+            background-color: transparent
+            border: none
+        &-submit
+            background-color: transparent
+            border: none
+    &__labels
+        &-name
+            display: block
+            border-bottom: 1px solid #FFFFFF
+        &-phone
+            display: block
+            border-bottom: 1px solid #FFFFFF
+        &-text
+            display: block
+            border-bottom: 1px solid #FFFFFF
+        &-button
+            display: block
+            border-bottom: 1px solid #FFFFFF
 .subtitle
+    position: absolute
     display: flex
-    justify-content: space-between
-    max-width: 20%
+    justify-content: center
+    width: 100%
     font-size: 14px
-    position: relative
-    margin: auto
+    margin: 100% auto
     &-name
-        max-width: 134px
+        position: relative
+        width: 150px
     &-INN
-        max-width: 123px
+        position: relative
+        width: 150px

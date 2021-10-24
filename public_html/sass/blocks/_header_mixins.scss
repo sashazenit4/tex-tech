@@ -1,0 +1,113 @@
+@mixin mobile_header {
+    body.lock {
+        overflow: hidden;
+    }
+
+    .navbar-wrap {
+        position: fixed;
+        top: 0;
+        left: 0%;
+        width: 100%;
+        z-index: 4;
+        background-color: #e6ebe0;
+    }
+
+    .navbar:before {
+        content: '';
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #e6ebe0;
+        transition: all 0.3s ease 0s;
+        z-index: 1;
+    }
+
+    .navbar.active::before {
+        top: 0;
+    }
+
+    .menu {
+        display: block;
+        text-align: right;
+        position: fixed;
+        top: -100%;
+        background-color: #e6ebe0;
+        transition: all 0.3s ease 0s;
+        z-index: 2;
+    }
+
+
+    .menu.active {
+        top: 80px;
+    }
+
+    .menu-buttons {
+        z-index: 2;
+        display: block;
+        padding: 0;
+    }
+
+    .menu-button {
+        margin: 0 0 40px 0;
+    }
+
+    .navbar__contacts {
+        display: block;
+        padding: 0;
+        width: 100%;
+        text-align: right;
+    }
+
+    .navbar__email {
+        margin-top: 10px;
+    }
+
+    .logo_navbar__logo {
+        margin-left: 20px;
+    }
+
+    .navbar-wrap-gamburger {
+        display: block;
+        position: relative;
+        width: 20px;
+        height: 12px;
+        margin-right: 20px;
+    }
+    
+    .navbar-wrap-gamburger span, .navbar-wrap-gamburger::before, .navbar-wrap-gamburger::after {
+        content: '';
+        background-color: #027E72;
+        position: absolute;
+        width: 100%;
+        height: 1.5px;
+        left: 0;
+        top: 0;
+        transition: all 0.3s ease 0s;
+    }
+
+    .navbar-wrap-gamburger span{
+        top: 6px;
+    }
+
+    .navbar-wrap-gamburger::before {
+        top: -6px;
+    }
+    .navbar-wrap-gamburger::after {
+        bottom: -6px;
+    }
+
+    .navbar-wrap-gamburger.active span{
+        transform: scale(0);
+    }
+
+    .navbar-wrap-gamburger.active::before {
+        transform: rotate(45deg);
+        top: 0px;
+    }
+    .navbar-wrap-gamburger.active::after {
+        transform: rotate(-45deg);
+        bottom: 2px;
+    }
+}
