@@ -7,6 +7,7 @@
     <title>Tex-tech</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
 </head>
 <body>
     <header class="header" id="head">
@@ -23,11 +24,11 @@
                     <!-- /.logo navbar__logo -->
                     <nav class="menu">
                         <ul class="menu-buttons">
-                            <li style="list-style-type: none;" class="menu-button" onclick="window.location.href='#tech'">Технология</li>
-                            <li style="list-style-type: none;" class="menu-button" onclick="window.location.href='#type'">Виды тканей</li>
-                            <li style="list-style-type: none;" class="menu-button" onclick="window.location.href='#achieve'">Особенности тканей</li>
-                        <!--<li style="list-style-type: none;" class="menu-button" onclick="window.location.href='#part'">Партнеры</li>-->
-                            <li style="list-style-type: none;" class="menu-button" onclick="window.location.href='#about'">О нас</li>
+                            <li style="list-style-type: none;" class="menu-button"><a class="menu-b" style="text-decoration: none; color: #41485A !important" href="#tech">Технология</a></li>
+                            <li style="list-style-type: none;" class="menu-button"><a class="menu-b" style="text-decoration: none; color: #41485A !important" href="#type">Виды тканей</a></li>
+                            <li style="list-style-type: none;" class="menu-button"><a class="menu-b" style="text-decoration: none; color: #41485A !important" href="#achieve">Особенности тканей</a></li>
+                        <!--<li style="list-style-type: none;" class="menu-button"><a class="menu-b" style="text-decoration: none; color: #41485A !important" href="#part">Партнеры</a></li>-->
+                            <li style="list-style-type: none;" class="menu-button"><a class="menu-b" style="text-decoration: none; color: #41485A !important" href="#about">О нас</a></li>
                         </ul>
                         <ul class="navbar__contacts">
                             <li style="list-style-type: none;" class="navbar__mobile">+7 (913) 457 63 69</li>
@@ -383,11 +384,9 @@
         </div>
         </div>
     </section> -->
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
     <script src="scripts/script.js"></script>
     <script>
-        
-        const anchors = document.querySelectorAll('a.menu-button')
+        const anchors = document.querySelectorAll('a.menu-b')
 
         for (let anchor of anchors) {
           anchor.addEventListener('click', function (e) {
@@ -401,6 +400,7 @@
             })
           })
         }
-        </script>
+        
+    </script>
 </body>
 </html>
