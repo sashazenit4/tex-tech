@@ -41,7 +41,11 @@
 }
 
 @media only screen and (min-width : 1824px)  {
-    
+    .achieves-wrap {
+    max-width: 71.4%;
+    margin: auto;
+    text-align: justify;
+    }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {

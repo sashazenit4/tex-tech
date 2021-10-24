@@ -1,6 +1,6 @@
 @mixin mobile-achieves {
     .achieves {
-        height: 3800px;
+        height: 4200px;
     }
 
     .achieves-wrap {
@@ -14,6 +14,7 @@
     }
     .achieves-wrap-conts {
         display: block;
+        margin-top: 300px;
     }
     .achieves-wrap-cont1, .achieves-wrap-cont2, .achieves-wrap-cont3 {
         position: relative;
