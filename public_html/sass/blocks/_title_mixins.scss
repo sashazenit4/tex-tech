@@ -34,6 +34,15 @@
     .wrap-title__buttons-more {
         margin-top: 200px;
     }
+    .wrap-title__sub {
+        text-align: center;
+        display: flex;
+        flex-wrap: column;
+    }
+    .wrap-title__sub-title, .wrap-title__description {    
+        margin: auto;
+        text-align: center;
+    }
 }
 
 @mixin mobile_title-light {

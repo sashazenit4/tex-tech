@@ -1833,6 +1833,18 @@ a {
   .wrap-title__buttons-more {
     margin-top: 200px;
   }
+  .wrap-title__sub {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: column;
+        flex-wrap: column;
+  }
+  .wrap-title__sub-title, .wrap-title__description {
+    margin: auto;
+    text-align: center;
+  }
   .technology-wrap__groups {
     display: -webkit-box;
     display: -ms-flexbox;
