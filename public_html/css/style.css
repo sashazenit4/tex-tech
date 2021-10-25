@@ -166,7 +166,7 @@ a {
 
 .form {
   width: 100%;
-  min-height: 753px;
+  min-height: 1000px;
   color: white;
   background-size: cover;
   background-image: url("../img/form-fon.png");
@@ -1781,6 +1781,35 @@ textarea:focus, input:focus {
   .about_us-wrap__sign {
     top: 320px;
   }
+  .form-wrap__group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+  }
+  .subtitle {
+    margin-top: 950px;
+  }
+  .form-wrap {
+    width: 100%;
+  }
+  .form {
+    height: 1000px;
+  }
+  .form-wrap__labels-button {
+    width: 100%;
+  }
+  .form-wrap__buttons-submit {
+    width: 100%;
+  }
   .achieves-back {
     background: -webkit-gradient(linear, left bottom, left top, color-stop(12.96%, #262B39), color-stop(54.96%, rgba(0, 0, 0, 0))), url("../img/achieves-mobile.png"), no-repeat;
     background: linear-gradient(to top, #262B39 12.96%, rgba(0, 0, 0, 0) 54.96%), url("../img/achieves-mobile.png"), no-repeat;
@@ -2041,6 +2070,35 @@ textarea:focus, input:focus {
   .about_us-wrap__sign {
     top: 320px;
   }
+  .form-wrap__group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+  }
+  .subtitle {
+    margin-top: 950px;
+  }
+  .form-wrap {
+    width: 100%;
+  }
+  .form {
+    height: 1000px;
+  }
+  .form-wrap__labels-button {
+    width: 100%;
+  }
+  .form-wrap__buttons-submit {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-device-width: 880px) and (max-device-width: 1235.9px) {
@@ -2284,6 +2342,35 @@ textarea:focus, input:focus {
   }
   .about_us-wrap__sign {
     top: 320px;
+  }
+  .form-wrap__group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+  }
+  .subtitle {
+    margin-top: 950px;
+  }
+  .form-wrap {
+    width: 100%;
+  }
+  .form {
+    height: 1000px;
+  }
+  .form-wrap__labels-button {
+    width: 100%;
+  }
+  .form-wrap__buttons-submit {
+    width: 100%;
   }
 }
 

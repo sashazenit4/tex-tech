@@ -4,6 +4,7 @@
 @import 'blocks/types-mixin';
 @import 'blocks/achieves_mixin';
 @import 'blocks/about-mixin';
+@import 'blocks/form-mixin';
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     @include mobile_header;
@@ -12,6 +13,7 @@
     @include mobile-types;
     @include mobile-achieves;
     @include mobile-about;
+    @include mobile-form;
     .achieves-back {
         background: linear-gradient(to top, #262B39 12.96%, rgba(0, 0, 0, 0) 54.96%), url('../img/achieves-mobile.png'), no-repeat;
     }
@@ -24,6 +26,7 @@
     @include mobile-types;
     @include mobile-achieves;
     @include mobile-about;
+    @include mobile-form;
 }
 
 @media only screen and (min-device-width : 880px) and (max-device-width : 1235.9px)  {
@@ -33,6 +36,7 @@
     @include mobile-types;
     @include mobile-achieves;
     @include mobile-about;
+    @include mobile-form;
 }
 
 
