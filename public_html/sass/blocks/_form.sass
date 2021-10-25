@@ -1,7 +1,12 @@
+input:-webkit-autofill
+    color: #ffffff !important
+textarea:focus, input:focus
+    outline: none
 .form-wrap
     display: block
     position: relative
     height: 600px
+    color: white
     &__group
         display: flex
         width: 100%
@@ -12,6 +17,23 @@
         width: 50%
         height: 320px
         margin: auto
+        &-title
+            font-size: 36px
+            &-obr
+                position: absolute
+                -webkit-border-radius: 200px / 30px
+                border-radius: 200px / 30px
+                width: 300.02px
+                height: 45.56px
+                opacity: 0.8
+                margin-right: 40px
+                border: 1px solid #fff
+                box-sizing: border-box
+                transform: rotate(7.28deg)
+        &-phone
+            margin-top: 44px
+        &-email
+            margin-top: 44px
     &__form
         width: 50%
         height: 320px
@@ -21,35 +43,67 @@
         &-name
             background-color: transparent
             border: none
+            color: white
+            width: 100%
         &-phone
             background-color: transparent
             border: none
+            color: white
+            width: 100%
+        &-email
+            background-color: transparent
+            border: none
+            color: white
+            width: 100%
         &-message
             background-color: transparent
             border: none
+            color: white
+            width: 100%
+            height: 90px
+            resize: none
+            color: white
         &-submit
+            display: block
             background-color: transparent
             border: none
+            color: white
+            width: 100%
+            margin-top: 12px
+            text-align: center
+            font-size: 20px
     &__labels
         &-name
             display: block
+            margin-top: 40px
             border-bottom: 1px solid #FFFFFF
         &-phone
             display: block
+            margin-top: 40px
+            border-bottom: 1px solid #FFFFFF
+        &-email
+            display: block
+            margin-top: 40px
             border-bottom: 1px solid #FFFFFF
         &-text
             display: block
-            border-bottom: 1px solid #FFFFFF
+            margin-top: 40px
+            border: 1px solid #FFFFFF
+            border-radius: 11px
         &-button
             display: block
-            border-bottom: 1px solid #FFFFFF
+            border: 1px solid #FFFFFF
+            width: 60%
+            height: 47px
+            margin: 40px auto
+            cursor: pointer
 .subtitle
     position: absolute
     display: flex
     justify-content: center
     width: 100%
     font-size: 14px
-    margin: 100% auto
+    margin: 110% auto
     &-name
         position: relative
         width: 150px
