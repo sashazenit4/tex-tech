@@ -6,7 +6,7 @@
 @import 'blocks/about-mixin';
 @import 'blocks/form-mixin';
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 320px) and (max-width : 480px) {
     @include mobile_header;
     @include mobile_title-light;
     @include mobile-tech;
@@ -19,7 +19,7 @@
     }
 }
 
-@media only screen and (min-device-width: 480.1px) and (max-device-width : 879px)  {
+@media only screen and (min-width: 480.1px) and (max-width : 879px)  {
     @include mobile_header;
     @include mobile_title-sub-middle;
     @include mobile-tech;
@@ -27,9 +27,12 @@
     @include mobile-achieves;
     @include mobile-about;
     @include mobile-form;
+    .form-wrap__contact-title-obr {
+        width: 210px;
+    }
 }
 
-@media only screen and (min-device-width : 880px) and (max-device-width : 1235.9px)  {
+@media only screen and (min-width : 880px) and (max-width : 1235.9px)  {
     @include mobile_header;
     @include mobile_title-middle;
     @include mobile-tech;
@@ -37,11 +40,16 @@
     @include mobile-achieves;
     @include mobile-about;
     @include mobile-form;
+    .form-wrap__contact-title-obr {
+        width: 250px;
+    }
 }
 
 
 @media only screen and (min-width : 1236px)  {
-    
+    .form-wrap__contact-title-obr {
+        width: 300px;
+    }
 }
 
 @media only screen and (min-width : 1824px)  {
