@@ -1064,7 +1064,7 @@ a {
       flex-wrap: wrap;
   width: 100%;
   text-align: left;
-  top: 231px;
+  top: 100px;
 }
 
 .achieves-wrap-cont2-left-block {
@@ -1129,7 +1129,7 @@ a {
       flex-wrap: wrap;
   width: 100%;
   text-align: left;
-  top: 231px;
+  top: 100px;
 }
 
 .achieves-wrap-cont3-left-block {
@@ -1755,6 +1755,9 @@ textarea:focus, input:focus {
   .achieves-wrap-conts {
     display: block;
     margin-top: 150px;
+    max-width: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .achieves-wrap-cont1, .achieves-wrap-cont2, .achieves-wrap-cont3 {
     position: relative;
@@ -2072,6 +2075,9 @@ textarea:focus, input:focus {
   .achieves-wrap-conts {
     display: block;
     margin-top: 150px;
+    max-width: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .achieves-wrap-cont1, .achieves-wrap-cont2, .achieves-wrap-cont3 {
     position: relative;
@@ -2385,6 +2391,9 @@ textarea:focus, input:focus {
   .achieves-wrap-conts {
     display: block;
     margin-top: 150px;
+    max-width: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .achieves-wrap-cont1, .achieves-wrap-cont2, .achieves-wrap-cont3 {
     position: relative;
