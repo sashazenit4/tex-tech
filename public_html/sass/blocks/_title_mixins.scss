@@ -13,7 +13,16 @@
         background-image: none;
     }
     .wrap-title__buttons-more {
-        margin-top: 200px;
+        margin-top: calc(10% + 15vh);
+    }
+    .wrap-title__sub {
+        width: 409px;
+        text-align: center;
+        display: flex;
+        flex-wrap: column;
+    }
+    .wrap-title__description {
+        margin: 0 auto;
     }
 }
 
@@ -54,7 +63,7 @@
         margin-top: 130px;
     }
     .wrap-title__sub-title, .wrap-title__description {    
-        font-size: 16px;
+        font-size: 20px;
         margin: auto;
     }
     .wrap-title__description {
@@ -69,7 +78,7 @@
         background-image: none;
     }
     .wrap-title__buttons-more {
-        margin-top: calc(60% + 20vh);
+        margin-top: calc(30% + 20vh);
     }
     .wrap-title__sub {
         text-align: center;

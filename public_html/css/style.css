@@ -347,7 +347,7 @@ a {
           justify-content: center;
   width: 100%;
   text-align: center;
-  margin-top: 20%;
+  margin-top: calc(10% + 20vh);
 }
 
 .wrap-title__buttons-more {
@@ -1371,6 +1371,7 @@ textarea:focus, input:focus {
   position: relative;
   min-height: 600px;
   color: white;
+  font-family: 'AeonikPro-Regular', sans-serif;
 }
 
 .form-wrap__group {
@@ -1422,6 +1423,10 @@ textarea:focus, input:focus {
   width: 50%;
   height: 320px;
   margin: auto;
+}
+
+.form-wrap__form-title {
+  font-size: 36px;
 }
 
 .form-wrap__buttons {
@@ -1636,7 +1641,7 @@ textarea:focus, input:focus {
     margin-top: 130px;
   }
   .wrap-title__sub-title, .wrap-title__description {
-    font-size: 16px;
+    font-size: 20px;
     margin: auto;
   }
   .wrap-title__description {
@@ -1651,7 +1656,7 @@ textarea:focus, input:focus {
     background-image: none;
   }
   .wrap-title__buttons-more {
-    margin-top: calc(60% + 20vh);
+    margin-top: calc(30% + 20vh);
   }
   .wrap-title__sub {
     text-align: center;
@@ -1730,19 +1735,26 @@ textarea:focus, input:focus {
     width: 100%;
   }
   .achieves {
-    height: 4200px;
+    height: 4000px;
   }
   .achieves-wrap {
     max-width: 95%;
     margin: auto;
     text-align: justify;
   }
+  .achieves-back {
+    height: 320px;
+  }
+  .achieves-wrap-title-obr {
+    margin-top: 70px;
+    margin-left: 20px;
+  }
   .achieves-wrap-title-text {
     font-size: 32px;
   }
   .achieves-wrap-conts {
     display: block;
-    margin-top: 300px;
+    margin-top: 150px;
   }
   .achieves-wrap-cont1, .achieves-wrap-cont2, .achieves-wrap-cont3 {
     position: relative;
@@ -1800,6 +1812,10 @@ textarea:focus, input:focus {
     height: 950px;
     margin-top: 0;
   }
+  .form-wrap__contact {
+    margin-top: 150px;
+    text-align: center;
+  }
   .subtitle {
     margin-top: 950px;
   }
@@ -1817,7 +1833,20 @@ textarea:focus, input:focus {
     width: 100%;
   }
   .form-wrap__contact-title-obr {
+    margin-left: 10%;
+    border-radius: 90px / 15px;
     width: 170px;
+    height: 40px;
+    opacity: 0.8;
+    margin-left: calc(inherit + 10px);
+    border: 1px solid #fff;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transform: rotate(7.28deg);
+            transform: rotate(7.28deg);
+  }
+  .form-wrap__contact-title-obr {
+    margin-left: 0;
   }
   .achieves-back {
     background: -webkit-gradient(linear, left bottom, left top, color-stop(12.96%, #262B39), color-stop(54.96%, rgba(0, 0, 0, 0))), url("../img/achieves-mobile.png"), no-repeat;
@@ -2023,19 +2052,26 @@ textarea:focus, input:focus {
     width: 100%;
   }
   .achieves {
-    height: 4200px;
+    height: 4000px;
   }
   .achieves-wrap {
     max-width: 95%;
     margin: auto;
     text-align: justify;
   }
+  .achieves-back {
+    height: 320px;
+  }
+  .achieves-wrap-title-obr {
+    margin-top: 70px;
+    margin-left: 20px;
+  }
   .achieves-wrap-title-text {
     font-size: 32px;
   }
   .achieves-wrap-conts {
     display: block;
-    margin-top: 300px;
+    margin-top: 150px;
   }
   .achieves-wrap-cont1, .achieves-wrap-cont2, .achieves-wrap-cont3 {
     position: relative;
@@ -2093,6 +2129,10 @@ textarea:focus, input:focus {
     height: 950px;
     margin-top: 0;
   }
+  .form-wrap__contact {
+    margin-top: 150px;
+    text-align: center;
+  }
   .subtitle {
     margin-top: 950px;
   }
@@ -2110,7 +2150,17 @@ textarea:focus, input:focus {
     width: 100%;
   }
   .form-wrap__contact-title-obr {
+    margin-left: 10%;
+    border-radius: 90px / 15px;
     width: 170px;
+    height: 40px;
+    opacity: 0.8;
+    margin-left: calc(inherit + 10px);
+    border: 1px solid #fff;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transform: rotate(7.28deg);
+            transform: rotate(7.28deg);
   }
   .form-wrap__contact-title-obr {
     width: 210px;
@@ -2232,7 +2282,19 @@ textarea:focus, input:focus {
     background-image: none;
   }
   .wrap-title__buttons-more {
-    margin-top: 200px;
+    margin-top: calc(10% + 15vh);
+  }
+  .wrap-title__sub {
+    width: 409px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: column;
+        flex-wrap: column;
+  }
+  .wrap-title__description {
+    margin: 0 auto;
   }
   .technology-wrap__groups {
     display: -webkit-box;
@@ -2303,19 +2365,26 @@ textarea:focus, input:focus {
     width: 100%;
   }
   .achieves {
-    height: 4200px;
+    height: 4000px;
   }
   .achieves-wrap {
     max-width: 95%;
     margin: auto;
     text-align: justify;
   }
+  .achieves-back {
+    height: 320px;
+  }
+  .achieves-wrap-title-obr {
+    margin-top: 70px;
+    margin-left: 20px;
+  }
   .achieves-wrap-title-text {
     font-size: 32px;
   }
   .achieves-wrap-conts {
     display: block;
-    margin-top: 300px;
+    margin-top: 150px;
   }
   .achieves-wrap-cont1, .achieves-wrap-cont2, .achieves-wrap-cont3 {
     position: relative;
@@ -2373,6 +2442,10 @@ textarea:focus, input:focus {
     height: 950px;
     margin-top: 0;
   }
+  .form-wrap__contact {
+    margin-top: 150px;
+    text-align: center;
+  }
   .subtitle {
     margin-top: 950px;
   }
@@ -2390,7 +2463,17 @@ textarea:focus, input:focus {
     width: 100%;
   }
   .form-wrap__contact-title-obr {
+    margin-left: 10%;
+    border-radius: 90px / 15px;
     width: 170px;
+    height: 40px;
+    opacity: 0.8;
+    margin-left: calc(inherit + 10px);
+    border: 1px solid #fff;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transform: rotate(7.28deg);
+            transform: rotate(7.28deg);
   }
   .form-wrap__contact-title-obr {
     width: 250px;
