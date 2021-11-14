@@ -1306,6 +1306,20 @@ a {
   font-family: 'AeonikPro-Regular', sans-serif;
 }
 
+.about_us-wrap__PDF {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 270px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
 .about_us-wrap__sign {
   position: relative;
   top: 320px;
@@ -1735,7 +1749,7 @@ textarea:focus, input:focus {
     width: 100%;
   }
   .achieves {
-    height: 4000px;
+    height: 3000px;
   }
   .achieves-wrap {
     max-width: 95%;
@@ -1789,7 +1803,7 @@ textarea:focus, input:focus {
     width: auto;
   }
   #about {
-    height: 850px;
+    height: 670px;
   }
   .about_us-wrap {
     height: 700px;
@@ -1798,8 +1812,11 @@ textarea:focus, input:focus {
   .about_us-wrap__text {
     min-height: 400px;
   }
+  .about_us-wrap__PDF {
+    top: 100px;
+  }
   .about_us-wrap__sign {
-    top: 320px;
+    top: 150px;
   }
   .form-wrap__group {
     display: -webkit-box;
@@ -2055,7 +2072,7 @@ textarea:focus, input:focus {
     width: 100%;
   }
   .achieves {
-    height: 4000px;
+    height: 3000px;
   }
   .achieves-wrap {
     max-width: 95%;
@@ -2109,7 +2126,7 @@ textarea:focus, input:focus {
     width: auto;
   }
   #about {
-    height: 850px;
+    height: 670px;
   }
   .about_us-wrap {
     height: 700px;
@@ -2118,8 +2135,11 @@ textarea:focus, input:focus {
   .about_us-wrap__text {
     min-height: 400px;
   }
+  .about_us-wrap__PDF {
+    top: 100px;
+  }
   .about_us-wrap__sign {
-    top: 320px;
+    top: 150px;
   }
   .form-wrap__group {
     display: -webkit-box;
@@ -2371,7 +2391,7 @@ textarea:focus, input:focus {
     width: 100%;
   }
   .achieves {
-    height: 4000px;
+    height: 3000px;
   }
   .achieves-wrap {
     max-width: 95%;
@@ -2425,7 +2445,7 @@ textarea:focus, input:focus {
     width: auto;
   }
   #about {
-    height: 850px;
+    height: 670px;
   }
   .about_us-wrap {
     height: 700px;
@@ -2434,8 +2454,11 @@ textarea:focus, input:focus {
   .about_us-wrap__text {
     min-height: 400px;
   }
+  .about_us-wrap__PDF {
+    top: 100px;
+  }
   .about_us-wrap__sign {
-    top: 320px;
+    top: 150px;
   }
   .form-wrap__group {
     display: -webkit-box;

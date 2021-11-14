@@ -7,7 +7,9 @@
     <title>Tex-tech</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </head>
 <body>
     <header class="header" id="head">
@@ -368,6 +370,11 @@
                 мужской и&nbsp;женской одежды для плавания и&nbsp;спорта, фитнеса, аэробики, купальников, леггинсов, топов, 
                 лайкр&nbsp;&mdash; мы&nbsp;сделаем так, чтобы ваши покупатели загорели.
             </div>
+            <div class="about_us-wrap__PDF">
+                <a style="cursor: pointer; text-decoration: none; color: #000 !important" class="fancybox" href="docs/CPN.pdf">Просмотр файла</a>
+                <a style="cursor: pointer; text-decoration: none; color: #000 !important" class="fancybox" href="docs/EL2.pdf">Просмотр файла</a>
+                <a style="cursor: pointer; text-decoration: none; color: #000 !important" class="fancybox" href="docs/TP1.pdf">Просмотр файла</a>
+            </div>
             <div class="about_us-wrap__sign">
                 <strong>Наша компания</strong> является эксклюзивным дистрибьютором высокотехнологичных тканей марки SunSelect на территории Российской Федерации и стран СНГ.
             </div>
@@ -438,6 +445,18 @@
           })
         }
         
+    </script>
+    
+    <script type="text/javascript">
+        $("a.fancybox").fancybox(
+            {
+                'frameWidth': 100,
+                'frameHeight':495,
+                'overlayShow':true,
+                'hideOnContentClick':false,
+                'type':'iframe'
+            }
+        );
     </script>
 </body>
 </html>

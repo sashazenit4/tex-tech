@@ -1,6 +1,6 @@
 @mixin mobile-about {
     #about {
-        height: 850px;
+        height: 670px;
     }
 
     .about_us-wrap {
@@ -12,7 +12,11 @@
         min-height: 400px;
     }
 
+    .about_us-wrap__PDF {
+        top: 100px
+    }
+
     .about_us-wrap__sign {
-        top: 320px;
+        top: 150px;
     }
 }
