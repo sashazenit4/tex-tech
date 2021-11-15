@@ -411,16 +411,16 @@
                     </div>
                     <div class="form-wrap__buttons">
                         <label for="form-name" class="form-wrap__labels-name">
-                            <input id="form-name" type="text" placeholder="Имя" class="form-wrap__buttons-name">
+                            <input required id="form-name" type="text" placeholder="Имя" class="form-wrap__buttons-name">
                         </label>
                         <label for="form-phone" class="form-wrap__labels-phone">
-                            <input id="form-phone" type="text" placeholder="Телефон" class="form-wrap__buttons-phone">
+                            <input required id="form-phone" type="tel" pattern="[+]{1}[0-9]{11,14}" placeholder="Телефон" class="form-wrap__buttons-phone">
                         </label>
                         <label for="form-email" class="form-wrap__labels-email">
-                            <input id="form-email" type="text" placeholder="Email" class="form-wrap__buttons-email">
+                            <input required id="form-email" type="email" placeholder="Email" class="form-wrap__buttons-email">
                         </label>
                         <label for="form-text" class="form-wrap__labels-text">
-                            <textarea id="form-text" type="text" placeholder="Сообщение..." class="form-wrap__buttons-message"></textarea>
+                            <textarea required id="form-text" type="text" placeholder="Сообщение..." class="form-wrap__buttons-message"></textarea>
                         </label>
                         <label for="form-button" class="form-wrap__labels-button">
                             <button id="form-button" type="submit" class="form-wrap__buttons-submit">Отправить</button>
