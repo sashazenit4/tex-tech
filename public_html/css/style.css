@@ -154,7 +154,7 @@ a {
 
 .about_us {
   width: 100%;
-  min-height: 900px;
+  min-height: 450px;
   background: url("../img/about_back.jpg");
 }
 
@@ -172,6 +172,11 @@ a {
   background-image: url("../img/form-fon.png");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.PDF-icon {
+  width: 30px;
+  height: 30px;
 }
 
 .logo_navbar {
@@ -1458,6 +1463,7 @@ textarea:focus, input:focus {
   border: none;
   color: white;
   width: 100%;
+  padding-left: 5px;
 }
 
 .form-wrap__buttons-phone {
@@ -1465,6 +1471,7 @@ textarea:focus, input:focus {
   border: none;
   color: white;
   width: 100%;
+  padding-left: 5px;
 }
 
 .form-wrap__buttons-email {
@@ -1472,6 +1479,7 @@ textarea:focus, input:focus {
   border: none;
   color: white;
   width: 100%;
+  padding-left: 5px;
 }
 
 .form-wrap__buttons-message {
@@ -1482,6 +1490,7 @@ textarea:focus, input:focus {
   height: 90px;
   resize: none;
   color: white;
+  padding: 10px;
 }
 
 .form-wrap__buttons-submit {
@@ -1550,6 +1559,38 @@ textarea:focus, input:focus {
 .subtitle-INN {
   position: relative;
   width: 150px;
+}
+
+input:focus:-webkit-input-placeholder {
+  color: transparent;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+input:focus::-moz-input-placeholder {
+  color: transparent;
+}
+
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+textarea:focus:-webkit-input-placeholder {
+  color: transparent;
+}
+
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+textarea:focus::-moz-input-placeholder {
+  color: transparent;
+}
+
+textarea:focus:-ms-input-placeholder {
+  color: transparent;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 459px) {
