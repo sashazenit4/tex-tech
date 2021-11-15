@@ -142,7 +142,7 @@ a {
 
 .achieves {
   background-color: #262B39;
-  min-height: 2331px;
+  min-height: 1600px;
   width: 100%;
 }
 
@@ -931,7 +931,7 @@ a {
 
 .achieves-back {
   width: 100%;
-  height: 500px;
+  height: 400px;
   position: absolute;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(12.96%, #262B39), color-stop(54.96%, rgba(0, 0, 0, 0))), url("../img/achieves.jpg"), no-repeat;
   background: linear-gradient(to top, #262B39 12.96%, rgba(0, 0, 0, 0) 54.96%), url("../img/achieves.jpg"), no-repeat;
@@ -939,7 +939,7 @@ a {
 }
 
 .achieves-wrap {
-  height: 1953px;
+  height: 1450px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1001,7 +1001,6 @@ a {
           justify-content: space-between;
   -ms-flex-line-pack: center;
       align-content: center;
-  top: 50px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   color: white;
@@ -1120,73 +1119,6 @@ a {
 }
 
 .achieves-wrap-cont2-right-block__text {
-  margin-top: 20px;
-  font-size: 16px;
-  width: 100%;
-}
-
-.achieves-wrap-cont3 {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  color: white;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 100%;
-  text-align: left;
-}
-
-.achieves-wrap-cont3-left-block {
-  display: inline-block;
-  width: 450px;
-  margin-top: 100px;
-}
-
-.achieves-wrap-cont3-left-block__back {
-  width: 450px;
-  height: 241px;
-  background-image: url(../img/cont3-left-block__back.png);
-  background-position: left;
-  background-repeat: no-repeat;
-}
-
-.achieves-wrap-cont3-left-block__title {
-  font-size: 32px;
-  margin-top: 57px;
-}
-
-.achieves-wrap-cont3-left-block__text {
-  margin-top: 20px;
-  font-size: 16px;
-  width: 100%;
-}
-
-.achieves-wrap-cont3-right-block {
-  display: inline-block;
-  width: 450px;
-  margin-top: 100px;
-}
-
-.achieves-wrap-cont3-right-block__back {
-  width: 448px;
-  height: 239px;
-  background-image: url(../img/cont3-right-block__back.png);
-  background-position: left;
-  background-repeat: no-repeat;
-}
-
-.achieves-wrap-cont3-right-block__title {
-  font-size: 32px;
-  margin-top: 57px;
-}
-
-.achieves-wrap-cont3-right-block__text {
   margin-top: 20px;
   font-size: 16px;
   width: 100%;
@@ -1595,7 +1527,7 @@ textarea:focus:-ms-input-placeholder {
   color: transparent;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 459px) {
+@media only screen and (min-width: 320px) and (max-width: 530px) {
   .header {
     height: 850px;
   }
@@ -1616,7 +1548,7 @@ textarea:focus:-ms-input-placeholder {
     top: -100%;
     left: 0;
     width: 100%;
-    height: 50%;
+    height: 70%;
     background-color: #e6ebe0;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -1878,7 +1810,7 @@ textarea:focus:-ms-input-placeholder {
     width: 100%;
   }
   .achieves {
-    height: 3200px;
+    height: 2500px;
   }
   .achieves-wrap {
     max-width: 85%;
@@ -2004,7 +1936,7 @@ textarea:focus:-ms-input-placeholder {
     font-size: 10px;
   }
   .achieves {
-    height: calc(3150px + 90vw * 1.3);
+    height: calc(2500px + 100vw * 1.3);
   }
   .form-wrap__contact-title-obr {
     margin-left: 0;
@@ -2015,7 +1947,7 @@ textarea:focus:-ms-input-placeholder {
   }
 }
 
-@media only screen and (min-width: 459.1px) and (max-width: 879px) {
+@media only screen and (min-width: 530.1px) and (max-width: 879px) {
   .header {
     height: 850px;
   }
@@ -2036,7 +1968,7 @@ textarea:focus:-ms-input-placeholder {
     top: -100%;
     left: 0;
     width: 100%;
-    height: 50%;
+    height: 70%;
     background-color: #e6ebe0;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -2293,7 +2225,7 @@ textarea:focus:-ms-input-placeholder {
     width: 100%;
   }
   .achieves {
-    height: 3200px;
+    height: 2500px;
   }
   .achieves-wrap {
     max-width: 85%;
@@ -2435,7 +2367,7 @@ textarea:focus:-ms-input-placeholder {
     top: -100%;
     left: 0;
     width: 100%;
-    height: 50%;
+    height: 70%;
     background-color: #e6ebe0;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -2692,7 +2624,7 @@ textarea:focus:-ms-input-placeholder {
     width: 100%;
   }
   .achieves {
-    height: 3200px;
+    height: 2500px;
   }
   .achieves-wrap {
     max-width: 85%;
