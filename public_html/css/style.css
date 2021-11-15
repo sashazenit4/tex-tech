@@ -121,7 +121,7 @@ a {
 .header {
   max-width: 100%;
   margin: auto;
-  height: 100vh;
+  height: 130vh;
   background-size: cover;
   background-image: url("../img/wrap-header.png");
   background-repeat: no-repeat;
@@ -249,7 +249,7 @@ a {
           align-items: center;
   color: #027E72;
   font-family: 'AeonikPro-Regular', sans-serif;
-  width: 350px;
+  width: 340px;
   margin: auto;
 }
 
@@ -299,7 +299,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 60%;
+  width: 90%;
   -webkit-column-gap: 30px;
           column-gap: 30px;
   -webkit-box-pack: justify;
@@ -317,7 +317,6 @@ a {
   position: relative;
   display: block;
   width: auto;
-  max-width: 409px;
   font-size: 25px;
 }
 
@@ -341,7 +340,6 @@ a {
   color: #2B2D36;
   font-size: 25px;
   display: block;
-  max-width: 310px;
 }
 
 .wrap-title__buttons {
@@ -354,7 +352,7 @@ a {
           justify-content: center;
   width: 100%;
   text-align: center;
-  margin-top: calc(2% + 20vh);
+  margin-top: calc(35vh);
 }
 
 .wrap-title__buttons-more {
@@ -546,7 +544,8 @@ a {
           box-sizing: border-box;
   -webkit-transform: rotate(-12.54deg);
           transform: rotate(-12.54deg);
-  margin-top: 20px;
+  margin-top: 8px;
+  margin-left: -3px;
 }
 
 .slide1-cont {
@@ -625,7 +624,8 @@ a {
           box-sizing: border-box;
   -webkit-transform: rotate(-12.54deg);
           transform: rotate(-12.54deg);
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-left: -16px;
 }
 
 .slide3 {
@@ -695,7 +695,8 @@ a {
           box-sizing: border-box;
   -webkit-transform: rotate(-12.54deg);
           transform: rotate(-12.54deg);
-  margin-top: 20px;
+  margin-top: 8px;
+  margin-left: -3px;
 }
 
 .slide4-cont {
@@ -737,7 +738,8 @@ a {
           box-sizing: border-box;
   -webkit-transform: rotate(-12.54deg);
           transform: rotate(-12.54deg);
-  margin-top: 20px;
+  margin-top: 6px;
+  margin-left: -16px;
 }
 
 .slide5-cont {
@@ -820,7 +822,8 @@ a {
           box-sizing: border-box;
   -webkit-transform: rotate(-12.54deg);
           transform: rotate(-12.54deg);
-  margin-top: 20px;
+  margin-top: 8px;
+  margin-left: -3px;
 }
 
 .slide7-cont {
@@ -862,7 +865,8 @@ a {
           box-sizing: border-box;
   -webkit-transform: rotate(-12.54deg);
           transform: rotate(-12.54deg);
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-left: -16px;
 }
 
 .slide8-cont {
@@ -1004,8 +1008,9 @@ a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   color: white;
-  width: 100%;
   text-align: left;
+  -webkit-column-gap: 120px;
+          column-gap: 120px;
 }
 
 .achieves-wrap-cont1-left-block {
@@ -1070,7 +1075,8 @@ a {
   color: white;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 100%;
+  -webkit-column-gap: 120px;
+          column-gap: 120px;
   text-align: left;
   top: 100px;
 }
@@ -1246,7 +1252,6 @@ a {
   position: relative;
   top: 220px;
   color: #2B2D36;
-  max-width: 1029px;
   font-size: 18px;
   font-family: 'AeonikPro-Regular', sans-serif;
 }
@@ -1548,7 +1553,7 @@ textarea:focus:-ms-input-placeholder {
     top: -100%;
     left: 0;
     width: 100%;
-    height: 70%;
+    height: 75%;
     background-color: #e6ebe0;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -1653,8 +1658,8 @@ textarea:focus:-ms-input-placeholder {
     background-color: #dfe0e4;
     background-image: none;
   }
-  .wrap-title__buttons-more {
-    margin-top: 40%;
+  .wrap-title__buttons {
+    margin-top: 400px;
   }
   .wrap-title__sub {
     text-align: center;
@@ -1968,7 +1973,7 @@ textarea:focus:-ms-input-placeholder {
     top: -100%;
     left: 0;
     width: 100%;
-    height: 70%;
+    height: 75%;
     background-color: #e6ebe0;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -2064,8 +2069,8 @@ textarea:focus:-ms-input-placeholder {
     background-color: #dfe0e4;
     background-image: none;
   }
-  .wrap-title__buttons-more {
-    margin-top: 40%;
+  .wrap-title__buttons {
+    margin-top: 400px;
   }
   .wrap-title__sub {
     text-align: center;
@@ -2367,7 +2372,7 @@ textarea:focus:-ms-input-placeholder {
     top: -100%;
     left: 0;
     width: 100%;
-    height: 70%;
+    height: 75%;
     background-color: #e6ebe0;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -2463,8 +2468,8 @@ textarea:focus:-ms-input-placeholder {
     background-color: #dfe0e4;
     background-image: none;
   }
-  .wrap-title__buttons-more {
-    margin-top: 40%;
+  .wrap-title__buttons {
+    margin-top: 400px;
   }
   .wrap-title__sub {
     width: 409px;
