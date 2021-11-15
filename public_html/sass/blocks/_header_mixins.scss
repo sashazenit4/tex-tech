@@ -1,4 +1,8 @@
 @mixin mobile_header {
+    .header {
+        height: 850px;
+    }
+
     body.lock {
         overflow: hidden;
     }
