@@ -299,7 +299,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 80%;
+  width: 60%;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1614,7 +1616,7 @@ textarea:focus:-ms-input-placeholder {
     top: -100%;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 50%;
     background-color: #e6ebe0;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -1727,8 +1729,8 @@ textarea:focus:-ms-input-placeholder {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: column;
-        flex-wrap: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .technology-wrap__groups {
     display: -webkit-box;
@@ -2034,7 +2036,7 @@ textarea:focus:-ms-input-placeholder {
     top: -100%;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 50%;
     background-color: #e6ebe0;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -2138,8 +2140,8 @@ textarea:focus:-ms-input-placeholder {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: column;
-        flex-wrap: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .wrap-title__sub-title, .wrap-title__description {
     margin: auto;
@@ -2433,7 +2435,7 @@ textarea:focus:-ms-input-placeholder {
     top: -100%;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 50%;
     background-color: #e6ebe0;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -2538,8 +2540,8 @@ textarea:focus:-ms-input-placeholder {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: column;
-        flex-wrap: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .wrap-title__description {
     margin: 0 auto;
