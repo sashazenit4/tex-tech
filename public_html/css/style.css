@@ -301,8 +301,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: 90%;
-  -webkit-column-gap: 30px;
-          column-gap: 30px;
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
