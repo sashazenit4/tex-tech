@@ -22,11 +22,10 @@
     }
     .achieves-wrap-conts {
         display: block;
-        margin-top: 150px;
-        max-width: 600px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin: 150px auto;
+        max-width: inherit;
     }
+    
     .achieves-wrap-cont1, .achieves-wrap-cont2, .achieves-wrap-cont3 {
         position: relative;
         display: flex;
@@ -46,5 +45,9 @@
     .achieves-wrap-cont1-left-block__back, .achieves-wrap-cont1-right-block__back, .achieves-wrap-cont2-left-block__back, 
     .achieves-wrap-cont2-right-block__back, .achieves-wrap-cont3-left-block__back, .achieves-wrap-cont3-right-block__back {
         width: auto;
+    }
+
+    .achieves-wrap-cont1-right-block, .achieves-wrap-cont2-right-block {
+        margin-top: 100px;
     }
 }
