@@ -31,7 +31,7 @@
         width: 75px;
         height: 75px;
         display: inline-block;
-        margin-top: 30px;
+        margin-top: 50px;
         margin-left: 0;
     }
 
@@ -43,6 +43,7 @@
         justify-content: space-between;
         align-content: center;
     }
+
     .technology-wrap-gr2__text {
         font-size: 12px;
         width: 65%;
@@ -52,7 +53,7 @@
         width: 75px;
         height: 75px;
         display: inline-block;
-        margin-top: 30px;
+        margin-top: 50px;
         margin-left: 0;
     }
 
@@ -74,19 +75,19 @@
         width: 75px;
         height: 75px;
         display: inline-block;
-        margin-top: 30px;
+        margin-top: 50px;
         margin-left: 0;
     }
 }
 @mixin mobile-tech__mini-text{
     .technology-wrap-gr1__text {
-        font-size: 10px;
+        font-size: 12px;
     }
     .technology-wrap-gr2__text {
-        font-size: 10px;
+        font-size: 12px;
     }
     .technology-wrap-gr3__text {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 @mixin mobile-tech__big-text{
