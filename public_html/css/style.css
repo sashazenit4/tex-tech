@@ -1276,6 +1276,8 @@ a {
   font-family: 'AeonikPro-Regular', sans-serif;
   font-size: 64px;
   color: #2B2D36;
+  position: relative;
+  top: 240px;
 }
 
 .about_us-wrap__PDF {
@@ -1917,6 +1919,7 @@ textarea:focus:-ms-input-placeholder {
   }
   .about_us-wrap__sub-title-text {
     font-size: 48px;
+    top: 0;
   }
   .form-wrap__group {
     display: -webkit-box;
@@ -2344,6 +2347,7 @@ textarea:focus:-ms-input-placeholder {
   }
   .about_us-wrap__sub-title-text {
     font-size: 48px;
+    top: 0;
   }
   .form-wrap__group {
     display: -webkit-box;
@@ -2755,6 +2759,7 @@ textarea:focus:-ms-input-placeholder {
   }
   .about_us-wrap__sub-title-text {
     font-size: 48px;
+    top: 0;
   }
   .form-wrap__group {
     display: -webkit-box;
