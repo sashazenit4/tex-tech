@@ -121,10 +121,10 @@ a {
 .header {
   max-width: 100%;
   margin: auto;
-  height: 130vh;
+  height: 100vh;
   background-size: cover;
   background-image: url("../img/wrap-header.png");
-  background-repeat: no-repeat;
+  background-repeat: no-repeat !important;
   background-position: center;
 }
 
@@ -291,7 +291,7 @@ a {
 }
 
 .wrap-title {
-  height: 788px;
+  height: 70vh;
 }
 
 .wrap-title__sub {
@@ -331,6 +331,7 @@ a {
   text-align: center;
   color: #262B39;
   font-size: 120px;
+  margin-top: -10px;
   font-family: 'AeonikPro-Light', sans-serif;
 }
 
@@ -1023,18 +1024,20 @@ a {
   height: 241px;
   background-image: url(../img/cont1-left-block__back.png);
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center;
 }
 
 .achieves-wrap-cont1-left-block__title {
   font-size: 32px;
   margin-top: 57px;
+  text-align: center;
 }
 
 .achieves-wrap-cont1-left-block__text {
   margin-top: 20px;
   font-size: 16px;
   width: 100%;
+  text-align: justify;
 }
 
 .achieves-wrap-cont1-right-block {
@@ -1047,19 +1050,21 @@ a {
   width: 448px;
   height: 239px;
   background-image: url(../img/cont1-right-block__back.png);
-  background-position: left;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
 .achieves-wrap-cont1-right-block__title {
   font-size: 32px;
   margin-top: 57px;
+  text-align: center;
 }
 
 .achieves-wrap-cont1-right-block__text {
   margin-top: 20px;
   font-size: 16px;
   width: 100%;
+  text-align: justify;
 }
 
 .achieves-wrap-cont2 {
@@ -1090,19 +1095,21 @@ a {
   width: 450px;
   height: 241px;
   background-image: url(../img/cont2-left-block__back.png);
-  background-position: left;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
 .achieves-wrap-cont2-left-block__title {
   font-size: 32px;
   margin-top: 57px;
+  text-align: center;
 }
 
 .achieves-wrap-cont2-left-block__text {
   margin-top: 20px;
   font-size: 16px;
   width: 100%;
+  text-align: justify;
 }
 
 .achieves-wrap-cont2-right-block {
@@ -1115,19 +1122,21 @@ a {
   width: 448px;
   height: 239px;
   background-image: url(../img/cont2-right-block__back.png);
-  background-position: left;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
 .achieves-wrap-cont2-right-block__title {
   font-size: 32px;
   margin-top: 57px;
+  text-align: center;
 }
 
 .achieves-wrap-cont2-right-block__text {
   margin-top: 20px;
   font-size: 16px;
   width: 100%;
+  text-align: justify;
 }
 
 .technology-wrap {
@@ -1173,6 +1182,7 @@ a {
 .technology-wrap-gr1__img {
   height: auto;
   width: auto;
+  margin-left: 100px;
 }
 
 .technology-wrap-gr1__text {
@@ -1189,6 +1199,7 @@ a {
 .technology-wrap-gr2__img {
   height: auto;
   width: auto;
+  margin-left: 100px;
 }
 
 .technology-wrap-gr2__text {
@@ -1205,6 +1216,7 @@ a {
 .technology-wrap-gr3__img {
   height: auto;
   width: auto;
+  margin-left: 100px;
 }
 
 .technology-wrap-gr3__text {
@@ -1534,7 +1546,7 @@ textarea:focus:-ms-input-placeholder {
 
 @media only screen and (min-width: 320px) and (max-width: 530px) {
   .header {
-    height: 850px;
+    height: 100vh;
   }
   body.lock {
     overflow: hidden;
@@ -1653,13 +1665,14 @@ textarea:focus:-ms-input-placeholder {
   .wrap-title {
     background-image: url("../img/wrap-header.png");
     background-position: center;
+    height: 100vh;
   }
   .header {
     background-color: #dfe0e4;
     background-image: none;
   }
   .wrap-title__buttons {
-    margin-top: 400px;
+    margin-top: 30vh;
   }
   .wrap-title__sub {
     text-align: center;
@@ -1717,6 +1730,7 @@ textarea:focus:-ms-input-placeholder {
     height: 75px;
     display: inline-block;
     margin-top: 30px;
+    margin-left: 0;
   }
   .technology-wrap-gr2 {
     margin-top: 50px;
@@ -1744,6 +1758,7 @@ textarea:focus:-ms-input-placeholder {
     height: 75px;
     display: inline-block;
     margin-top: 30px;
+    margin-left: 0;
   }
   .technology-wrap-gr3 {
     margin-top: 50px;
@@ -1771,6 +1786,7 @@ textarea:focus:-ms-input-placeholder {
     height: 75px;
     display: inline-block;
     margin-top: 30px;
+    margin-left: 0;
   }
   .tex-types {
     height: 2000px;
@@ -1954,7 +1970,7 @@ textarea:focus:-ms-input-placeholder {
 
 @media only screen and (min-width: 530.1px) and (max-width: 879px) {
   .header {
-    height: 850px;
+    height: 100vh;
   }
   body.lock {
     overflow: hidden;
@@ -2064,13 +2080,14 @@ textarea:focus:-ms-input-placeholder {
   .wrap-title {
     background-image: url("../img/wrap-header.png");
     background-position: center;
+    height: 100vh;
   }
   .header {
     background-color: #dfe0e4;
     background-image: none;
   }
   .wrap-title__buttons {
-    margin-top: 400px;
+    margin-top: 30vh;
   }
   .wrap-title__sub {
     text-align: center;
@@ -2132,6 +2149,7 @@ textarea:focus:-ms-input-placeholder {
     height: 75px;
     display: inline-block;
     margin-top: 30px;
+    margin-left: 0;
   }
   .technology-wrap-gr2 {
     margin-top: 50px;
@@ -2159,6 +2177,7 @@ textarea:focus:-ms-input-placeholder {
     height: 75px;
     display: inline-block;
     margin-top: 30px;
+    margin-left: 0;
   }
   .technology-wrap-gr3 {
     margin-top: 50px;
@@ -2186,6 +2205,7 @@ textarea:focus:-ms-input-placeholder {
     height: 75px;
     display: inline-block;
     margin-top: 30px;
+    margin-left: 0;
   }
   .tex-types {
     height: 2000px;
@@ -2353,7 +2373,7 @@ textarea:focus:-ms-input-placeholder {
 
 @media only screen and (min-width: 880px) and (max-width: 1245.9px) {
   .header {
-    height: 850px;
+    height: 100vh;
   }
   body.lock {
     overflow: hidden;
@@ -2463,13 +2483,14 @@ textarea:focus:-ms-input-placeholder {
   .wrap-title {
     background-image: url("../img/wrap-header.png");
     background-position: center;
+    height: 100vh;
   }
   .header {
     background-color: #dfe0e4;
     background-image: none;
   }
   .wrap-title__buttons {
-    margin-top: 400px;
+    margin-top: 30vh;
   }
   .wrap-title__sub {
     width: 409px;
@@ -2531,6 +2552,7 @@ textarea:focus:-ms-input-placeholder {
     height: 75px;
     display: inline-block;
     margin-top: 30px;
+    margin-left: 0;
   }
   .technology-wrap-gr2 {
     margin-top: 50px;
@@ -2558,6 +2580,7 @@ textarea:focus:-ms-input-placeholder {
     height: 75px;
     display: inline-block;
     margin-top: 30px;
+    margin-left: 0;
   }
   .technology-wrap-gr3 {
     margin-top: 50px;
@@ -2585,6 +2608,7 @@ textarea:focus:-ms-input-placeholder {
     height: 75px;
     display: inline-block;
     margin-top: 30px;
+    margin-left: 0;
   }
   .tex-types {
     height: 2000px;
