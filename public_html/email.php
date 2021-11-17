@@ -26,4 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     http_response_code(403);
     echo "Попробуйте еще раз";
 }
+sleep(5);
+header('Location: http://www.tex-tech.ru/');
+exit;
 ?>

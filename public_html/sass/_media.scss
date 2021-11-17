@@ -6,7 +6,7 @@
 @import 'blocks/about-mixin';
 @import 'blocks/form-mixin';
 
-@media only screen and (min-width : 320px) and (max-width : 530px) {
+@media only screen and (min-width : 320px) and (max-width : 400px) {
     @include mobile_header;
     @include mobile_title-light;
     @include mobile-tech;
@@ -16,7 +16,7 @@
     @include mobile-form;
     @include mobile-tech__mini-text;
     .achieves {
-        height: calc(2500px + 90vw);
+        height: calc(2300px + 140vw);
     }
     .form-wrap__contact-title-obr {
         margin-left: 0;
@@ -26,7 +26,7 @@
     }
 }
 
-@media only screen and (min-width: 530.1px) and (max-width : 879px)  {
+@media only screen and (min-width: 400.1px) and (max-width : 879px)  {
     @include mobile_header;
     @include mobile_title-sub-middle;
     @include mobile-tech;
