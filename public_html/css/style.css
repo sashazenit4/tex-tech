@@ -361,7 +361,7 @@ a {
 .wrap-title__buttons-more {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #2B2D36;
+  background-color: #027E72;
   border: 1px solid #F49F0A;
   width: 259px;
   height: 47px;
@@ -370,7 +370,8 @@ a {
 }
 
 .wrap-title__buttons-more-text {
-  margin-top: 14px;
+  margin-top: 10px;
+  font-size: 25px;
 }
 
 .tex-types {
@@ -531,7 +532,7 @@ a {
 .slide1-title {
   font-weight: bold;
   position: absolute;
-  font-size: 72px;
+  font-size: 64px;
   margin-top: 40px;
   margin-left: 21px;
 }
@@ -585,7 +586,7 @@ a {
 .slide2-title {
   font-weight: bold;
   position: absolute;
-  font-size: 72px;
+  font-size: 64px;
   margin-top: 40px;
   margin-left: 11px;
 }
@@ -639,7 +640,7 @@ a {
 .slide3-title {
   font-weight: bold;
   position: absolute;
-  font-size: 72px;
+  font-size: 64px;
   margin-top: 40px;
   margin-left: 39px;
 }
@@ -682,9 +683,10 @@ a {
 
 .slide4-title {
   position: absolute;
-  font-size: 72px;
+  font-size: 64px;
   margin-top: 40px;
   margin-left: 21px;
+  font-weight: bold;
 }
 
 .slide4-obr {
@@ -725,9 +727,10 @@ a {
 
 .slide5-title {
   position: absolute;
-  font-size: 72px;
+  font-size: 64px;
   margin-top: 40px;
   margin-left: 11px;
+  font-weight: bold;
 }
 
 .slide5-obr {
@@ -768,9 +771,10 @@ a {
 
 .slide6-title {
   position: absolute;
-  font-size: 72px;
+  font-size: 64px;
   margin-top: 40px;
   margin-left: 39px;
+  font-weight: bold;
 }
 
 .slide6-obr {
@@ -809,9 +813,10 @@ a {
 
 .slide7-title {
   position: absolute;
-  font-size: 72px;
+  font-size: 64px;
   margin-top: 40px;
   margin-left: 21px;
+  font-weight: bold;
 }
 
 .slide7-obr {
@@ -852,9 +857,10 @@ a {
 
 .slide8-title {
   position: absolute;
-  font-size: 72px;
+  font-size: 64px;
   margin-top: 40px;
   margin-left: 11px;
+  font-weight: bold;
 }
 
 .slide8-obr {
@@ -895,9 +901,10 @@ a {
 
 .slide9-title {
   position: absolute;
-  font-size: 72px;
+  font-size: 64px;
   margin-top: 40px;
   margin-left: 39px;
+  font-weight: bold;
 }
 
 .slide9-obr {
@@ -1468,6 +1475,7 @@ textarea:focus, input:focus {
   margin-top: 12px;
   text-align: center;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .form-wrap__labels-name {
@@ -1908,6 +1916,9 @@ textarea:focus:-ms-input-placeholder {
   #about {
     height: 670px;
   }
+  .about_us-wrap__title {
+    font-size: 32px;
+  }
   .about_us-wrap {
     height: 700px;
     display: block;
@@ -2336,6 +2347,9 @@ textarea:focus:-ms-input-placeholder {
   #about {
     height: 670px;
   }
+  .about_us-wrap__title {
+    font-size: 32px;
+  }
   .about_us-wrap {
     height: 700px;
     display: block;
@@ -2747,6 +2761,9 @@ textarea:focus:-ms-input-placeholder {
   }
   #about {
     height: 670px;
+  }
+  .about_us-wrap__title {
+    font-size: 32px;
   }
   .about_us-wrap {
     height: 700px;
