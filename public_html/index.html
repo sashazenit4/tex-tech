@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />    
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="scripts/jquery.maskedinput.js"></script>
 </head>
 <body>
     <header class="header" id="head">
@@ -423,7 +424,7 @@
                             <input name="name" required id="form-name" type="text" placeholder="Имя" class="form-wrap__buttons-name">
                         </label>
                         <label for="form-phone" class="form-wrap__labels-phone">
-                            <input name="tel" required id="form-phone" type="tel" pattern="[0-9]{11,14}" placeholder="Телефон" class="form-wrap__buttons-phone">
+                            <input name="tel" required id="form-phone" type="tel" pattern="[0-9]{11,14}" placeholder="Телефон" class="form-wrap__buttons-phone form-control">
                         </label>
                         <label for="form-email" class="form-wrap__labels-email">
                             <input name="mail" required id="form-email" type="email" placeholder="Email" class="form-wrap__buttons-email">
@@ -477,5 +478,13 @@
             }
         );
     </script>
+    
+    <script>
+        $(document).ready(function() {
+            $("#form-phone").mask("+7 (999) 999-99-99");
+        }
+        );
+    </script>
+
 </body>
 </html>

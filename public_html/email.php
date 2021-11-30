@@ -16,17 +16,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $send = mail ($to, $subject, $message, $headers);
     if ($send == 'true')
     {
-    // echo '<center><p class="success">Спасибо за отправку вашего сообщения!</p></center>';
+        echo '<center><p class="success">Спасибо за отправку вашего сообщения!</p></center>';
     }
     else 
     {
-    // echo '<center><p class="fail"><b>Ошибка. Сообщение не отправлено!</b></p></center>';
+        echo '<center><p class="fail"><b>Ошибка. Сообщение не отправлено!</b></p></center>';
     }
 } else {
     http_response_code(403);
-    // echo "Попробуйте еще раз";
+        echo "Попробуйте еще раз";
 }
-sleep(1);
-header('Location: http://www.tex-tech.ru/');
+sleep(4);
+header('Location: https://www.tex-tech.ru/');
 exit();
 ?>
