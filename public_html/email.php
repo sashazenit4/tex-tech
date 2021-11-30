@@ -14,6 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $subject = "Форма обратной связи";
     $message = "$message<br> <b>Имя отправителя:</b> $name <br><b>Телефон:</b> $phone";
     $send = mail ($to, $subject, $message, $headers);
+    ob_start();
     if ($send == 'true')
     {
         echo '<center><p class="success">Спасибо за отправку вашего сообщения!</p></center>';
@@ -26,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     http_response_code(403);
         echo "Попробуйте еще раз";
 }
-sleep(4);
 header('Location: https://www.tex-tech.ru/');
+ob_end_flush();
 exit();
 ?>
