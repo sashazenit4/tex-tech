@@ -1,6 +1,6 @@
 @mixin mobile_header {
     .header {
-        height: calc(100vh - 50%);
+        height: calc(100vh);
     }
 
     body.lock {

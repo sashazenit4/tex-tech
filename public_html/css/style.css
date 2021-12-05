@@ -311,7 +311,7 @@ a {
       flex-wrap: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 14px auto;
+  margin: 0 auto;
 }
 
 .wrap-title__sub-title {
@@ -323,9 +323,7 @@ a {
 }
 
 .wrap-title__main-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   position: relative;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -333,7 +331,7 @@ a {
   text-align: center;
   color: #262B39;
   font-size: 120px;
-  margin-top: -10px;
+  margin-bottom: 10px;
   font-family: 'AeonikPro-Light', sans-serif;
 }
 
@@ -1561,7 +1559,7 @@ textarea:focus:-ms-input-placeholder {
 
 @media only screen and (min-width: 320px) and (max-width: 400px) {
   .header {
-    height: calc(100vh - 50%);
+    height: calc(100vh);
   }
   body.lock {
     overflow: hidden;
@@ -1668,29 +1666,24 @@ textarea:focus:-ms-input-placeholder {
     font-size: 45px;
     text-align: center;
     width: 100%;
-    margin-top: 130px;
+    margin-top: 70px;
   }
   .wrap-title__sub-title, .wrap-title__description {
-    font-size: 20px;
+    font-size: 16px;
     margin: auto;
-  }
-  .wrap-title__sub-title {
-    width: 300px;
-  }
-  .wrap-title__description {
-    margin-top: 16px;
   }
   .wrap-title {
     background-image: url("../img/wrap-header.png");
     background-position: center;
     height: 100%;
+    background-repeat: no-repeat;
   }
   .header {
     background-color: #dfe0e4;
     background-image: none;
   }
   .wrap-title__buttons {
-    margin-top: 40vh;
+    margin-top: 60vh;
   }
   .wrap-title__sub {
     text-align: center;
@@ -2003,7 +1996,7 @@ textarea:focus:-ms-input-placeholder {
 
 @media only screen and (min-width: 400.1px) and (max-width: 879px) {
   .header {
-    height: calc(100vh - 50%);
+    height: calc(100vh);
   }
   body.lock {
     overflow: hidden;
@@ -2108,19 +2101,20 @@ textarea:focus:-ms-input-placeholder {
   .wrap-title__main-title {
     font-size: 60px;
     text-align: center;
-    margin-top: 130px;
+    margin-top: 70px;
   }
   .wrap-title {
     background-image: url("../img/wrap-header.png");
     background-position: center;
     height: 100%;
+    background-repeat: no-repeat;
   }
   .header {
     background-color: #dfe0e4;
     background-image: none;
   }
   .wrap-title__buttons {
-    margin-top: 40vh;
+    margin-top: 60vh;
   }
   .wrap-title__sub {
     text-align: center;
@@ -2133,6 +2127,7 @@ textarea:focus:-ms-input-placeholder {
   .wrap-title__sub-title, .wrap-title__description {
     margin: auto;
     text-align: center;
+    font-size: 16px;
   }
   .technology-wrap__groups {
     display: -webkit-box;
@@ -2421,7 +2416,7 @@ textarea:focus:-ms-input-placeholder {
 
 @media only screen and (min-width: 880px) and (max-width: 1245.9px) {
   .header {
-    height: calc(100vh - 50%);
+    height: calc(100vh);
   }
   body.lock {
     overflow: hidden;
@@ -2526,19 +2521,20 @@ textarea:focus:-ms-input-placeholder {
   .wrap-title__main-title {
     font-size: 72px;
     text-align: center;
-    margin-top: 130px;
+    margin-top: 70px;
   }
   .wrap-title {
     background-image: url("../img/wrap-header.png");
     background-position: center;
     height: 100%;
+    background-repeat: no-repeat;
   }
   .header {
     background-color: #dfe0e4;
     background-image: none;
   }
   .wrap-title__buttons {
-    margin-top: 40vh;
+    margin-top: 60vh;
   }
   .wrap-title__sub {
     width: 409px;
@@ -2551,6 +2547,9 @@ textarea:focus:-ms-input-placeholder {
   }
   .wrap-title__description {
     margin: 0 auto;
+  }
+  .wrap-title__sub-title, .wrap-title__description {
+    font-size: 16px;
   }
   .technology-wrap__groups {
     display: -webkit-box;
