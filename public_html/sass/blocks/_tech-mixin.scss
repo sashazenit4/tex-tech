@@ -89,6 +89,27 @@
     .technology-wrap-gr3__text {
         font-size: 14px;
     }
+    .technology-wrap-gr1__img {
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        margin-top: 80px;
+        margin-left: 0;
+    }
+    .technology-wrap-gr2__img {
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        margin-top: 110px;
+        margin-left: 0;
+    }
+    .technology-wrap-gr3__img {
+        width: 66px;
+        height: 60px;
+        display: inline-block;
+        margin-top: 80px;
+        margin-left: 0;
+    }
 }
 @mixin mobile-tech__big-text{
     .technology-wrap-gr1__text {
