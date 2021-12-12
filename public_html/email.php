@@ -36,6 +36,28 @@ exit();
 <?php
 require_once '/www/mail_settings.php';
 
+$error = true;
+
+$secret = '6Leb2IkdAAAAAGnO8Fk9cR3VhzWN14AERIgDDq-1';
+
+if (!empty($_POST['g-recaptcha-response'])) {
+	$curl = curl_init('https://www.google.com/recaptcha/api/siteverify');
+	curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+	curl_setopt($curl, CURLOPT_POST, true);
+	curl_setopt($curl, CURLOPT_POSTFIELDS, 'secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
+	$out = curl_exec($curl);
+	curl_close($curl);
+	
+	$out = json_decode($out);
+	if ($out->success == true) {
+		$error = false;
+	} 
+}    
+ 
+if ($error) {
+	echo 'Ошибка заполнения капчи.';
+    die();
+}
 // здесь указываем адрес администратора, который получит заявку с сайта
 // если получателей несколько, указываем в формате: ['receiver@domain.org', 'other@domain.org' => 'A NAME']
 // (там где 'A NAME' пишем любое имя, это ни на что не влияет)
@@ -93,6 +115,7 @@ if($result === 1) { // если всё хорошо и письмо было о�
 else { // если произошла ошибка и письмо не было отправлено
     echo '<h1>Произошла ошибка при отправке сообщения. Пожалуйста, свяжитесь с нами по телефону.</h1>';
 }
+sleep(10);
 header('Location: https://www.tex-tech.ru/');
 ob_end_flush();
 ?>

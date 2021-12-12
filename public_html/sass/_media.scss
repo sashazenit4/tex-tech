@@ -54,6 +54,12 @@
     }
 }
 
+@media only screen and (min-width : 650px) and (max-width : 1245.9px) {
+    .achieves {
+        height: calc(2300px);
+    }
+}
+
 @media only screen and (min-width : 1246px) and (max-width : 1400px)  {
     .form-wrap__contact-title-obr {
         width: 300px;

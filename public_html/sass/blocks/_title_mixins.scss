@@ -1,13 +1,13 @@
 @mixin mobile_title-middle {
     .wrap-title__main-title {
-        font-size: 72px;
+        font-size: 60px;
         text-align: center;
         margin-top: 70px;
     }
     .wrap-title {
         background-image: url('../img/wrap-header.png');
         background-position: center;
-        height: 80%;
+        height: 89%;
         background-repeat: no-repeat;
     }
     .header {
@@ -18,14 +18,15 @@
         margin-top: 45vh;
     }
     .wrap-title__sub {
-        width: 409px;
+        // width: 409px;
         text-align: center;
         display: flex;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
+        justify-content: center;
     }
-    .wrap-title__description {
-        margin: 0 auto;
-    }
+    // .wrap-title__description {
+    //     // margin: 0 auto;
+    // }
     .wrap-title__sub-title, .wrap-title__description {
         font-size: 16px;
     }
@@ -40,7 +41,7 @@
     .wrap-title {
         background-image: url('../img/wrap-header.png');
         background-position: center;
-        height: 80%;
+        height: 89%;
         background-repeat: no-repeat;
     }
     .header {
@@ -82,7 +83,7 @@
     .wrap-title {
         background-image: url('../img/wrap-header.png');
         background-position: center;
-        height: 80%;
+        height: 89%;
         background-repeat: no-repeat;
     }
     .header {

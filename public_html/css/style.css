@@ -150,7 +150,7 @@ a {
 
 .technology {
   background-color: #027E72;
-  min-height: 950px;
+  min-height: 750px;
   width: 100%;
 }
 
@@ -302,8 +302,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: 90%;
-  -webkit-column-gap: 50px;
-          column-gap: 50px;
+  -webkit-column-gap: 65px;
+          column-gap: 65px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1674,7 +1674,7 @@ textarea:focus:-ms-input-placeholder {
   .wrap-title {
     background-image: url("../img/wrap-header.png");
     background-position: center;
-    height: 80%;
+    height: 89%;
     background-repeat: no-repeat;
   }
   .header {
@@ -2141,7 +2141,7 @@ textarea:focus:-ms-input-placeholder {
   .wrap-title {
     background-image: url("../img/wrap-header.png");
     background-position: center;
-    height: 80%;
+    height: 89%;
     background-repeat: no-repeat;
   }
   .header {
@@ -2584,14 +2584,14 @@ textarea:focus:-ms-input-placeholder {
     bottom: 2px;
   }
   .wrap-title__main-title {
-    font-size: 72px;
+    font-size: 60px;
     text-align: center;
     margin-top: 70px;
   }
   .wrap-title {
     background-image: url("../img/wrap-header.png");
     background-position: center;
-    height: 80%;
+    height: 89%;
     background-repeat: no-repeat;
   }
   .header {
@@ -2602,16 +2602,13 @@ textarea:focus:-ms-input-placeholder {
     margin-top: 45vh;
   }
   .wrap-title__sub {
-    width: 409px;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .wrap-title__description {
-    margin: 0 auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .wrap-title__sub-title, .wrap-title__description {
     font-size: 16px;
@@ -2928,6 +2925,12 @@ textarea:focus:-ms-input-placeholder {
   }
   .form-wrap__contact-title-obr {
     width: 250px;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 1245.9px) {
+  .achieves {
+    height: calc(2300px);
   }
 }
 
