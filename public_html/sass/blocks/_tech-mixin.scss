@@ -1,21 +1,23 @@
 @mixin mobile-tech{
+    .technology {
+        min-height: 950px;
+    }
     .technology-wrap__groups {
         display: flex;
         flex-direction: column;
         top: 50px;
         justify-content: space-between;
         align-content: center;
-        width: calc(300px + 20%);
+        width: calc(320px);
         margin: 0 auto;
     }
     .technology-wrap__title {
-        font-size: 64px;
+        font-size: 56px;
         width: 100%;
         margin: 30px auto;
         text-align: center;
         display: inline-block;
     }
-
     .technology-wrap-gr1 {
         width: 100%;
         margin-top: 50px;
@@ -121,22 +123,23 @@
 }
 @mixin mobile-tech__big-text{
     .technology-wrap-gr1__text {
-        font-size: 18px;
+        font-size: 16px;
     }
     .technology-wrap-gr2__text {
-        font-size: 18px;
+        font-size: 16px;
     }
     .technology-wrap-gr3__text {
-        font-size: 18px;
+        font-size: 16px;
     }
+    
     .technology-wrap-gr1 {
-        width: 500px;
+        width: 400px;
     }
     .technology-wrap-gr2 {
-        width: 500px;
+        width: 400px;
     }
     .technology-wrap-gr3 {
-        width: 500px;
+        width: 400px;
     }
     
 }
