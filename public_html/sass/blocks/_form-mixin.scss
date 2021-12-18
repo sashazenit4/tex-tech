@@ -8,8 +8,11 @@
     margin-top: 0;
     }
     .form-wrap__contact {
-        margin-top: 190px;
+        margin-top: 280px;
         text-align: center;
+    }
+    .form-wrap__contact-title {
+        font-size: 32px;
     }
     .subtitle {
         margin-top: 950px;
@@ -28,7 +31,11 @@
         width: 100%;
     }
     .form-wrap__form-title {
-        font-size: 24px;
+        font-size: 42px;
+        text-align: center;
+        margin: auto;
+        width: 120%;
+        margin-left: -20px;
     }
     .form-wrap__contact-title-obr {
         margin-left: 10%;

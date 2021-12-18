@@ -40,7 +40,7 @@
     }
 }
 
-@media only screen and (min-width : 880px) and (max-width : 1245.9px)  {
+@media only screen and (min-width : 880px) and (max-width : 1252.9px)  {
     @include mobile_header;
     @include mobile_title-middle;
     @include mobile-tech;
@@ -54,13 +54,13 @@
     }
 }
 
-@media only screen and (min-width : 650px) and (max-width : 1245.9px) {
+@media only screen and (min-width : 650px) and (max-width : 1252.9px) {
     .achieves {
         height: calc(2300px);
     }
 }
 
-@media only screen and (min-width : 1246px) and (max-width : 1400px)  {
+@media only screen and (min-width : 1253px) and (max-width : 1400px)  {
     .form-wrap__contact-title-obr {
         width: 300px;
     }

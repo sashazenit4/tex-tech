@@ -966,13 +966,13 @@ a {
   font-size: 64px;
   font-family: 'Manrope-Bold', sans-serif;
   margin-top: 108px;
-  margin-left: 33px;
+  margin-left: 21px;
 }
 
 .achieves-wrap-title-obr {
   position: absolute;
-  border-radius: 128px / 57px;
-  width: 256.53px;
+  border-radius: 190px / 77px;
+  width: 286.53px;
   height: 117.48px;
   opacity: 0.8;
   border: 1px solid #2B2D36;
@@ -1301,6 +1301,12 @@ a {
   font-family: 'AeonikPro-Regular', sans-serif;
 }
 
+.PDF-icon {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  margin-bottom: 20px;
+}
+
 .partners-wrap {
   height: 363px;
   position: relative;
@@ -1496,7 +1502,7 @@ textarea:focus, input:focus {
   border: 1px solid #FFFFFF;
   width: 60%;
   height: 47px;
-  margin: 40px auto;
+  margin: 10px auto;
   cursor: pointer;
 }
 
@@ -1613,8 +1619,11 @@ textarea:focus:-ms-input-placeholder {
     width: 100%;
     text-align: right;
   }
+  .navbar__mobile {
+    margin-top: -7px;
+  }
   .navbar__email {
-    margin-top: 10px;
+    margin-top: 30px;
   }
   .logo_navbar__logo {
     margin-left: 20px;
@@ -1711,9 +1720,10 @@ textarea:focus:-ms-input-placeholder {
         align-content: center;
     width: calc(320px);
     margin: 0 auto;
+    text-align: left;
   }
   .technology-wrap__title {
-    font-size: 56px;
+    font-size: 42px;
     width: 100%;
     margin: 30px auto;
     text-align: center;
@@ -1816,7 +1826,7 @@ textarea:focus:-ms-input-placeholder {
     height: 1700px;
   }
   .type-wrap__title {
-    font-size: 32px;
+    font-size: 42px;
   }
   .type-wrap__slider-slider {
     height: 1700px;
@@ -1870,8 +1880,8 @@ textarea:focus:-ms-input-placeholder {
     height: 320px;
   }
   .achieves-wrap-title-obr {
-    margin-top: 70px;
-    margin-left: 20px;
+    margin-top: 69px;
+    margin-left: -5px;
   }
   .achieves-wrap-title-text {
     font-size: 32px;
@@ -1917,8 +1927,9 @@ textarea:focus:-ms-input-placeholder {
     height: 670px;
   }
   .about_us-wrap__title-text {
-    font-size: 48px;
+    font-size: 42px;
     font-weight: normal;
+    margin-top: 80px;
   }
   .about_us-wrap {
     height: 700px;
@@ -1952,8 +1963,11 @@ textarea:focus:-ms-input-placeholder {
     margin-top: 0;
   }
   .form-wrap__contact {
-    margin-top: 190px;
+    margin-top: 280px;
     text-align: center;
+  }
+  .form-wrap__contact-title {
+    font-size: 32px;
   }
   .subtitle {
     margin-top: 950px;
@@ -1972,7 +1986,11 @@ textarea:focus:-ms-input-placeholder {
     width: 100%;
   }
   .form-wrap__form-title {
-    font-size: 24px;
+    font-size: 42px;
+    text-align: center;
+    margin: auto;
+    width: 120%;
+    margin-left: -20px;
   }
   .form-wrap__contact-title-obr {
     margin-left: 10%;
@@ -2018,7 +2036,7 @@ textarea:focus:-ms-input-placeholder {
     margin-left: 0;
   }
   .technology-wrap__title {
-    font-size: 32px;
+    font-size: 42px;
   }
   .achieves {
     height: calc(2300px + 145vw);
@@ -2089,8 +2107,11 @@ textarea:focus:-ms-input-placeholder {
     width: 100%;
     text-align: right;
   }
+  .navbar__mobile {
+    margin-top: -7px;
+  }
   .navbar__email {
-    margin-top: 10px;
+    margin-top: 30px;
   }
   .logo_navbar__logo {
     margin-left: 20px;
@@ -2186,9 +2207,10 @@ textarea:focus:-ms-input-placeholder {
         align-content: center;
     width: calc(320px);
     margin: 0 auto;
+    text-align: left;
   }
   .technology-wrap__title {
-    font-size: 56px;
+    font-size: 42px;
     width: 100%;
     margin: 30px auto;
     text-align: center;
@@ -2291,7 +2313,7 @@ textarea:focus:-ms-input-placeholder {
     height: 1700px;
   }
   .type-wrap__title {
-    font-size: 32px;
+    font-size: 42px;
   }
   .type-wrap__slider-slider {
     height: 1700px;
@@ -2345,8 +2367,8 @@ textarea:focus:-ms-input-placeholder {
     height: 320px;
   }
   .achieves-wrap-title-obr {
-    margin-top: 70px;
-    margin-left: 20px;
+    margin-top: 69px;
+    margin-left: -5px;
   }
   .achieves-wrap-title-text {
     font-size: 32px;
@@ -2392,8 +2414,9 @@ textarea:focus:-ms-input-placeholder {
     height: 670px;
   }
   .about_us-wrap__title-text {
-    font-size: 48px;
+    font-size: 42px;
     font-weight: normal;
+    margin-top: 80px;
   }
   .about_us-wrap {
     height: 700px;
@@ -2427,8 +2450,11 @@ textarea:focus:-ms-input-placeholder {
     margin-top: 0;
   }
   .form-wrap__contact {
-    margin-top: 190px;
+    margin-top: 280px;
     text-align: center;
+  }
+  .form-wrap__contact-title {
+    font-size: 32px;
   }
   .subtitle {
     margin-top: 950px;
@@ -2447,7 +2473,11 @@ textarea:focus:-ms-input-placeholder {
     width: 100%;
   }
   .form-wrap__form-title {
-    font-size: 24px;
+    font-size: 42px;
+    text-align: center;
+    margin: auto;
+    width: 120%;
+    margin-left: -20px;
   }
   .form-wrap__contact-title-obr {
     margin-left: 10%;
@@ -2485,7 +2515,7 @@ textarea:focus:-ms-input-placeholder {
   }
 }
 
-@media only screen and (min-width: 880px) and (max-width: 1245.9px) {
+@media only screen and (min-width: 880px) and (max-width: 1252.9px) {
   .header {
     height: 100vh;
   }
@@ -2542,8 +2572,11 @@ textarea:focus:-ms-input-placeholder {
     width: 100%;
     text-align: right;
   }
+  .navbar__mobile {
+    margin-top: -7px;
+  }
   .navbar__email {
-    margin-top: 10px;
+    margin-top: 30px;
   }
   .logo_navbar__logo {
     margin-left: 20px;
@@ -2638,9 +2671,10 @@ textarea:focus:-ms-input-placeholder {
         align-content: center;
     width: calc(320px);
     margin: 0 auto;
+    text-align: left;
   }
   .technology-wrap__title {
-    font-size: 56px;
+    font-size: 42px;
     width: 100%;
     margin: 30px auto;
     text-align: center;
@@ -2743,7 +2777,7 @@ textarea:focus:-ms-input-placeholder {
     height: 1700px;
   }
   .type-wrap__title {
-    font-size: 32px;
+    font-size: 42px;
   }
   .type-wrap__slider-slider {
     height: 1700px;
@@ -2797,8 +2831,8 @@ textarea:focus:-ms-input-placeholder {
     height: 320px;
   }
   .achieves-wrap-title-obr {
-    margin-top: 70px;
-    margin-left: 20px;
+    margin-top: 69px;
+    margin-left: -5px;
   }
   .achieves-wrap-title-text {
     font-size: 32px;
@@ -2844,8 +2878,9 @@ textarea:focus:-ms-input-placeholder {
     height: 670px;
   }
   .about_us-wrap__title-text {
-    font-size: 48px;
+    font-size: 42px;
     font-weight: normal;
+    margin-top: 80px;
   }
   .about_us-wrap {
     height: 700px;
@@ -2879,8 +2914,11 @@ textarea:focus:-ms-input-placeholder {
     margin-top: 0;
   }
   .form-wrap__contact {
-    margin-top: 190px;
+    margin-top: 280px;
     text-align: center;
+  }
+  .form-wrap__contact-title {
+    font-size: 32px;
   }
   .subtitle {
     margin-top: 950px;
@@ -2899,7 +2937,11 @@ textarea:focus:-ms-input-placeholder {
     width: 100%;
   }
   .form-wrap__form-title {
-    font-size: 24px;
+    font-size: 42px;
+    text-align: center;
+    margin: auto;
+    width: 120%;
+    margin-left: -20px;
   }
   .form-wrap__contact-title-obr {
     margin-left: 10%;
@@ -2937,13 +2979,13 @@ textarea:focus:-ms-input-placeholder {
   }
 }
 
-@media only screen and (min-width: 650px) and (max-width: 1245.9px) {
+@media only screen and (min-width: 650px) and (max-width: 1252.9px) {
   .achieves {
     height: calc(2300px);
   }
 }
 
-@media only screen and (min-width: 1246px) and (max-width: 1400px) {
+@media only screen and (min-width: 1253px) and (max-width: 1400px) {
   .form-wrap__contact-title-obr {
     width: 300px;
   }
