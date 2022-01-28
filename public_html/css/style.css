@@ -433,7 +433,7 @@ a {
 }
 
 .type-wrap__slider-slider {
-  height: 420px;
+  height: 450px;
   overflow: hidden;
   position: relative;
   display: -webkit-box;
@@ -457,7 +457,7 @@ a {
 }
 
 .slides {
-  width: 335px;
+  width: 280px;
   height: inherit;
 }
 
@@ -553,12 +553,13 @@ a {
   position: absolute;
   font-size: 18px;
   line-height: 27px;
+  width: 250px;
 }
 
 .slide1-icons {
   width: 150px;
   position: absolute;
-  margin-top: 93%;
+  margin-top: 108%;
 }
 
 .slide1-ic2 {
@@ -571,7 +572,8 @@ a {
 
 .slide1-contain {
   position: absolute;
-  margin-top: 115%;
+  margin-top: 125%;
+  width: 250px;
 }
 
 .slide2 {
@@ -591,12 +593,13 @@ a {
   position: absolute;
   font-size: 18px;
   line-height: 27px;
+  width: 250px;
 }
 
 .slide2-icons {
   width: 150px;
   position: absolute;
-  margin-top: 93%;
+  margin-top: 73%;
 }
 
 .slide2-ic2 {
@@ -609,7 +612,8 @@ a {
 
 .slide2-contain {
   position: absolute;
-  margin-top: 115%;
+  margin-top: 90%;
+  width: 250px;
 }
 
 .slide2-obr {
@@ -644,17 +648,19 @@ a {
   position: absolute;
   font-size: 18px;
   line-height: 27px;
+  width: 250px;
 }
 
 .slide3-icons {
   width: 150px;
   position: absolute;
-  margin-top: 93%;
+  margin-top: 73%;
 }
 
 .slide3-contain {
   position: absolute;
-  margin-top: 115%;
+  margin-top: 90%;
+  width: 250px;
 }
 
 .slide3-obr {
@@ -702,15 +708,19 @@ a {
   position: absolute;
   font-size: 18px;
   line-height: 27px;
+  width: 250px;
 }
 
 .slide4-icons {
-  width: 130px;
+  width: 150px;
+  position: absolute;
+  margin-top: 73%;
 }
 
 .slide4-contain {
   position: absolute;
-  margin-top: 115%;
+  margin-top: 90%;
+  width: 250px;
 }
 
 .slide5 {
@@ -745,15 +755,19 @@ a {
   position: absolute;
   font-size: 18px;
   line-height: 27px;
+  width: 250px;
 }
 
 .slide5-icons {
-  width: 130px;
+  width: 150px;
+  position: absolute;
+  margin-top: 128%;
 }
 
 .slide5-contain {
   position: absolute;
-  margin-top: 115%;
+  margin-top: 142%;
+  width: 250px;
 }
 
 .slide6 {
@@ -787,15 +801,19 @@ a {
   position: absolute;
   font-size: 18px;
   line-height: 27px;
+  width: 250px;
 }
 
 .slide6-icons {
-  width: 130px;
+  width: 150px;
+  position: absolute;
+  margin-top: 110%;
 }
 
 .slide6-contain {
   position: absolute;
-  margin-top: 115%;
+  margin-top: 125%;
+  width: 250px;
 }
 
 .slide7 {
@@ -829,15 +847,19 @@ a {
   position: absolute;
   font-size: 18px;
   line-height: 27px;
+  width: 250px;
 }
 
 .slide7-icons {
-  width: 130px;
+  width: 150px;
+  position: absolute;
+  margin-top: 100%;
 }
 
 .slide7-contain {
   position: absolute;
   margin-top: 115%;
+  width: 250px;
 }
 
 .slide8 {
@@ -872,15 +894,19 @@ a {
   position: absolute;
   font-size: 18px;
   line-height: 27px;
+  width: 250px;
 }
 
 .slide8-icons {
-  width: 130px;
+  width: 150px;
+  position: absolute;
+  margin-top: 120%;
 }
 
 .slide8-contain {
   position: absolute;
-  margin-top: 115%;
+  margin-top: 135%;
+  width: 250px;
 }
 
 .slide9 {
@@ -914,15 +940,19 @@ a {
   position: absolute;
   font-size: 18px;
   line-height: 27px;
+  width: 250px;
 }
 
 .slide9-icons {
-  width: 130px;
+  width: 150px;
+  position: absolute;
+  margin-top: 120%;
 }
 
 .slide9-contain {
   position: absolute;
-  margin-top: 115%;
+  margin-top: 135%;
+  width: 250px;
 }
 
 #slide1:checked ~ .type-wrap__slider-slider > .group1, #slide2:checked ~ .type-wrap__slider-slider > .group2, #slide3:checked ~ .type-wrap__slider-slider > .group3 {
