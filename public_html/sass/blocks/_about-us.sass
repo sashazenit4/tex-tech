@@ -5,8 +5,9 @@
     text-align: left
     &__title
         position: relative
+        width: 100%
         &-obr
-            position: absolute
+            position: relative
             -webkit-border-radius: 128px / 57px
             border-radius: 128px / 57px
             width: 256.53px
@@ -15,18 +16,19 @@
             border: 1px solid #2B2D36
             box-sizing: border-box
             transform: rotate(-12.54deg)
-            margin-top: 48px
+            margin: 0 auto
+            top: 48px
         &-text
             color: #2B2D36
             position: absolute
             font-size: 64px
             +bold-logo
             margin-top: 68px
-            margin-left: 33px
-            width: 200px
+            width: 100%
+            text-align: center
     &__text
         position: relative
-        top: 220px
+        top: 100px
         color: #2B2D36
         // max-width: 1029px
         font-size: 18px
@@ -36,14 +38,14 @@
         font-size: 36px
         color: #2B2D36
         position: relative
-        top: 240px
+        top: 120px
         width: 100%
         text-align: center
     &__PDF
         position: relative
         width: 100%
         display: flex
-        top: 270px
+        top: 150px
         justify-content: space-between
         align-content: center
     &__sign
