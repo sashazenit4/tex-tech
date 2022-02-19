@@ -560,7 +560,8 @@ a {
   position: absolute;
   font-size: 18px;
   line-height: 27px;
-  width: 250px;
+  text-align: left;
+  width: 225px;
 }
 
 .slide1-icons {
@@ -580,7 +581,7 @@ a {
 .slide1-contain {
   position: absolute;
   margin-top: 135%;
-  width: 250px;
+  width: 174px;
 }
 
 .slide2 {
@@ -601,6 +602,7 @@ a {
   font-size: 18px;
   line-height: 27px;
   width: 250px;
+  text-align: left;
 }
 
 .slide2-icons {
@@ -620,7 +622,7 @@ a {
 .slide2-contain {
   position: absolute;
   margin-top: 90%;
-  width: 250px;
+  width: 174px;
 }
 
 .slide2-obr {
@@ -656,6 +658,7 @@ a {
   font-size: 18px;
   line-height: 27px;
   width: 250px;
+  text-align: left;
 }
 
 .slide3-icons {
@@ -667,7 +670,7 @@ a {
 .slide3-contain {
   position: absolute;
   margin-top: 90%;
-  width: 250px;
+  width: 174px;
 }
 
 .slide3-obr {
@@ -716,6 +719,7 @@ a {
   font-size: 18px;
   line-height: 27px;
   width: 250px;
+  text-align: left;
 }
 
 .slide4-icons {
@@ -727,7 +731,7 @@ a {
 .slide4-contain {
   position: absolute;
   margin-top: 90%;
-  width: 250px;
+  width: 174px;
 }
 
 .slide5 {
@@ -763,6 +767,7 @@ a {
   font-size: 18px;
   line-height: 27px;
   width: 250px;
+  text-align: left;
 }
 
 .slide5-icons {
@@ -774,7 +779,7 @@ a {
 .slide5-contain {
   position: absolute;
   margin-top: 142%;
-  width: 250px;
+  width: 174px;
 }
 
 .slide6 {
@@ -809,6 +814,7 @@ a {
   font-size: 18px;
   line-height: 27px;
   width: 250px;
+  text-align: left;
 }
 
 .slide6-icons {
@@ -820,7 +826,7 @@ a {
 .slide6-contain {
   position: absolute;
   margin-top: 125%;
-  width: 250px;
+  width: 174px;
 }
 
 .slide7 {
@@ -855,6 +861,7 @@ a {
   font-size: 18px;
   line-height: 27px;
   width: 250px;
+  text-align: left;
 }
 
 .slide7-icons {
@@ -866,7 +873,7 @@ a {
 .slide7-contain {
   position: absolute;
   margin-top: 115%;
-  width: 250px;
+  width: 174px;
 }
 
 .slide8 {
@@ -902,6 +909,7 @@ a {
   font-size: 18px;
   line-height: 27px;
   width: 250px;
+  text-align: left;
 }
 
 .slide8-icons {
@@ -913,7 +921,7 @@ a {
 .slide8-contain {
   position: absolute;
   margin-top: 135%;
-  width: 250px;
+  width: 174px;
 }
 
 .slide9 {
@@ -948,6 +956,7 @@ a {
   font-size: 18px;
   line-height: 27px;
   width: 250px;
+  text-align: left;
 }
 
 .slide9-icons {
@@ -959,7 +968,7 @@ a {
 .slide9-contain {
   position: absolute;
   margin-top: 135%;
-  width: 250px;
+  width: 174px;
 }
 
 #slide1:checked ~ .type-wrap__slider-slider > .group1, #slide2:checked ~ .type-wrap__slider-slider > .group2, #slide3:checked ~ .type-wrap__slider-slider > .group3 {
@@ -1891,6 +1900,24 @@ textarea:focus:-ms-input-placeholder {
     min-width: 320px;
     margin: 80px auto;
   }
+  .slide1 {
+    top: -30px;
+  }
+  .slide4 {
+    top: -30px;
+  }
+  .slide2 {
+    top: 50px;
+  }
+  .slide5 {
+    top: -75px;
+  }
+  .slide7 {
+    top: -30px;
+  }
+  .slide8 {
+    top: -50px;
+  }
   .group2 {
     display: block;
     min-height: 2400px;
@@ -2378,6 +2405,24 @@ textarea:focus:-ms-input-placeholder {
     min-width: 320px;
     margin: 80px auto;
   }
+  .slide1 {
+    top: -30px;
+  }
+  .slide4 {
+    top: -30px;
+  }
+  .slide2 {
+    top: 50px;
+  }
+  .slide5 {
+    top: -75px;
+  }
+  .slide7 {
+    top: -30px;
+  }
+  .slide8 {
+    top: -50px;
+  }
   .group2 {
     display: block;
     min-height: 2400px;
@@ -2841,6 +2886,24 @@ textarea:focus:-ms-input-placeholder {
     height: 460px;
     min-width: 320px;
     margin: 80px auto;
+  }
+  .slide1 {
+    top: -30px;
+  }
+  .slide4 {
+    top: -30px;
+  }
+  .slide2 {
+    top: 50px;
+  }
+  .slide5 {
+    top: -75px;
+  }
+  .slide7 {
+    top: -30px;
+  }
+  .slide8 {
+    top: -50px;
   }
   .group2 {
     display: block;
