@@ -251,8 +251,11 @@ a {
           align-items: center;
   color: #027E72 !important;
   font-family: 'AeonikPro-Regular', sans-serif;
-  width: 340px;
+  min-width: 320px;
   margin: auto;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  padding-left: 0;
 }
 
 .menu {
@@ -266,7 +269,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
+  text-align: justify;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -274,7 +277,7 @@ a {
   font-size: 20px;
   min-width: 88%;
   position: relative;
-  left: 30px;
+  left: 15px;
 }
 
 .menu-buttons {
@@ -290,6 +293,10 @@ a {
 .menu-button {
   cursor: pointer;
   margin-right: 20px;
+}
+
+.menu-button.right {
+  margin-right: 40px;
 }
 
 .wrap-title {
@@ -559,7 +566,7 @@ a {
 .slide1-icons {
   width: 150px;
   position: absolute;
-  margin-top: 108%;
+  margin-top: 118%;
 }
 
 .slide1-ic2 {
@@ -572,7 +579,7 @@ a {
 
 .slide1-contain {
   position: absolute;
-  margin-top: 125%;
+  margin-top: 135%;
   width: 250px;
 }
 
@@ -3019,15 +3026,14 @@ textarea:focus:-ms-input-placeholder {
   .form-wrap__contact-title-obr {
     width: 300px;
   }
-  .navbar {
-    padding-left: 10px;
+  .navbar__email {
+    min-width: 131px;
   }
   .navbar__contacts {
-    width: 260px;
-    padding-left: 0;
+    margin-right: 20px;
   }
   .navbar__mobile {
-    width: 160px;
+    min-width: 150px;
   }
 }
 

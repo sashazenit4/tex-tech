@@ -35,20 +35,22 @@
         align-items: center
         color: #027E72 !important
         +bold
-        width: 340px
+        min-width: 320px
         margin: auto
+        column-gap: 20px
+        padding-left: 0
     &__mobile
 .menu
     display: flex
     flex-direction: row
     align-items: center
-    text-align: center
+    text-align: justify
     justify-content: space-between
     background-color: transparent
     font-size: 20px
     min-width: 88%
     position: relative
-    left: 30px
+    left: 15px
     &-buttons
         display: flex
         min-width: 70%
@@ -56,3 +58,5 @@
     &-button
         cursor: pointer
         margin-right: 20px
+    &-button.right
+        margin-right: 40px

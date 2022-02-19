@@ -64,15 +64,14 @@
     .form-wrap__contact-title-obr {
         width: 300px;
     }
-    .navbar {
-        padding-left: 10px;
+    .navbar__email {
+        min-width: 131px;
     }
     .navbar__contacts {
-        width: 260px;
-        padding-left: 0;
+        margin-right: 20px;
     }
     .navbar__mobile {
-        width: 160px;
+        min-width: 150px;
     }
 }
 
