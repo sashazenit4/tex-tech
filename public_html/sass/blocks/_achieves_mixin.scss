@@ -1,6 +1,6 @@
 @mixin mobile-achieves {
     .achieves {
-        height: 2650px;
+        height: 2300px;
     }
 
     .achieves-wrap {
@@ -12,20 +12,18 @@
     .achieves-back {
         height: 320px;
     }
-    .achieves-wrap-title-obr {
-        margin: 48px auto;
-    }
 
     .achieves-wrap-title-text {
         font-size: 32px;
+        padding-top: 60px;
     }
     .achieves-wrap-conts {
         display: block;
-        margin: 150px auto;
+        margin: 60px auto;
         max-width: inherit;
     }
     
-    .achieves-wrap-cont1, .achieves-wrap-cont2, .achieves-wrap-cont3 {
+    .achieves-wrap-cont1, .achieves-wrap-cont2 {
         position: relative;
         display: flex;
         flex-direction: column;
@@ -37,6 +35,11 @@
         text-align: left;
         margin-top: 0px;
     }
+
+    .achieves-wrap-cont2 {
+        margin-top: 100px;
+    }
+
     .achieves-wrap-cont1-left-block, .achieves-wrap-cont1-right-block, .achieves-wrap-cont2-left-block, 
     .achieves-wrap-cont2-right-block, .achieves-wrap-cont3-left-block, .achieves-wrap-cont3-right-block {
         width: 100%;

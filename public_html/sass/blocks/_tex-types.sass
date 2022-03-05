@@ -1,6 +1,6 @@
 .tex-types
     width: 100%
-    min-height: 750px
+    min-height: 700px
     background-color: #E6EBE0
 .type-wrap
     height: 709px
@@ -11,138 +11,44 @@
         top: 10.5%
         color: #262B39
         font-size: 64px
-        margin: 0 auto
-        width: 100%
         justify-content: center
     &__slider
-        position: relative
-        height: 540px
-        top: 12%
-        &-controls
-            display: flex
-            justify-content: center
-            position: relative
-            &-label
-                cursor: pointer
-                display: inline-block
-                height: 8px
-                margin: 75px 12px 0 16px
-                position: relative
-                width: 8px
-                -webkit-border-radius: 50%
-                -moz-border-radius: 50%
-                -o-border-radius: 50%
-                border-radius: 50%
-                -webkit-transition: background ease-in-out .5s
-                -moz-transition: background ease-in-out .5s
-                -o-transition: background ease-in-out .5s
-                transition: background ease-in-out .5s
-            &-label:after
-                border: 2px solid #000
-                content: ""
-                display: block
-                height: 12px
-                left: -4px
-                position: relative
-                top: -4px
-                width: 12px
-                -webkit-border-radius: 50%
-                -moz-border-radius: 50%
-                -o-border-radius: 50%
-                border-radius: 50%
         &-slider
-            height: 450px
-            overflow: hidden
+            top: 12%
+            height: 540px
             position: relative
-            display: block
+            display: flex
             justify-content: space-between
-            margin: auto
-.type-wrap__slider-buttons-but
-    display: none
-.type-wrap__slider-controls-label:hover, 
-#slide1:checked ~ .type-wrap__slider-controls label:nth-of-type(1), 
-#slide2:checked ~ .type-wrap__slider-controls label:nth-of-type(2), 
-#slide3:checked ~ .type-wrap__slider-controls label:nth-of-type(3)
-    background: #000
+            margin: 0 auto
+            width: 100%
+#general
+    width: 100%
 .slides
     width: 280px
-    height: inherit
-.group1
-    position: absolute
-    display: flex
-    justify-content: space-between
-    width: 100%
-    opacity: 0
-    height: inherit
-    -webkit-transform: scale(1.5)
-    -moz-transform: scale(1.5)
-    -o-transform: scale(1.5)
-    transform: scale(1.5)
-    -webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s
-    -moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s
-    -o-transition: transform ease-in-out .5s, opacity ease-in-out .5s
-    transition: transform ease-in-out .5s, opacity ease-in-out .5s
-.group2
-    position: absolute
-    display: flex
-    justify-content: space-between
-    width: 100%
-    opacity: 0
-    height: inherit
-    -webkit-transform: scale(1.5)
-    -moz-transform: scale(1.5)
-    -o-transform: scale(1.5)
-    transform: scale(1.5)
-    -webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s
-    -moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s
-    -o-transition: transform ease-in-out .5s, opacity ease-in-out .5s
-    transition: transform ease-in-out .5s, opacity ease-in-out .5s
-.group3
-    position: absolute
-    display: flex
-    justify-content: space-between
-    width: 100%
-    opacity: 0
-    height: inherit
-    -webkit-transform: scale(1.5)
-    -moz-transform: scale(1.5)
-    -o-transform: scale(1.5)
-    transform: scale(1.5)
-    -webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s
-    -moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s
-    -o-transition: transform ease-in-out .5s, opacity ease-in-out .5s
-    transition: transform ease-in-out .5s, opacity ease-in-out .5s
-.slide1
+    height: 480px
+    display: inline-block
+    margin: 50px auto
     position: relative
+    align-content: center
+    left: 25px
+.slide1
     color: #262B39
     &-title
-        position: absolute
+        position: relative
         font-size: 64px
-        margin-top: 40px
-        margin-left: 21px
-    &-obr
-        position: absolute
-        -webkit-border-radius: 128px / 57px
-        border-radius: 128px / 57px
-        width: 256.53px
-        height: 117.48px
-        opacity: 0.8
-        border: 1px solid #262B39
-        box-sizing: border-box
-        transform: rotate(-12.54deg)
-        margin-top: 8px
-        margin-left: -3px
+        margin: auto
     &-cont
-        margin-top: 50%
-        position: absolute
+        position: relative
         font-size: 18px
         line-height: 27px
         text-align: left
-        width: 225px
+        width: 100%
+        margin-bottom: 20px
     &-icons
         width: 150px
-        position: absolute
-        margin-top: 118%
+        position: relative
+        justify-content: space-around
+        display: flex
     &-ic1
         
     &-ic2
@@ -150,30 +56,29 @@
     &-ic3
         margin-left: 20px
     &-contain
-        position: absolute
-        margin-top: 135%
+        margin-top: 20px
+        position: relative
         width: 174px
 
 .slide2
-    position: relative
     color: #027E72
-    &-title
-        
-        position: absolute
+    &-title    
+        position: relative
         font-size: 64px
-        margin-top: 40px
-        margin-left: 11px
+        margin: auto
+        
     &-cont
-        margin-top: 50%
-        position: absolute
+        position: relative
         font-size: 18px
         line-height: 27px
         width: 250px
-        text-align: left
+        text-align: justify
+        margin-bottom: 20px
     &-icons
         width: 150px
-        position: absolute
-        margin-top: 73%
+        position: relative
+        justify-content: space-around
+        display: flex
     &-ic1
         
     &-ic2
@@ -181,293 +86,165 @@
     &-ic3
         margin-left: 20px
     &-contain
-        position: absolute
-        margin-top: 90%
+        position: relative
+        margin-top: 20px
         width: 174px
-
-    &-obr
-        position: absolute
-        -moz-border-radius: 128px / 57px
-        -webkit-border-radius: 128px / 57px
-        border-radius: 128px / 57px
-        width: 256.53px
-        height: 117.48px
-        opacity: 0.8
-        border: 1px solid #027E72
-        box-sizing: border-box
-        transform: rotate(-12.54deg)
-        margin-top: 10px
-        margin-left: -16px
 .slide3
-    position: relative
     color: #615055
     &-title
+        position: relative
+        font-size: 64px
+        margin: auto
         
-        position: absolute
-        font-size: 64px 
-        margin-top: 40px
-        margin-left: 39px
     &-cont
-        margin-top: 50%
-        position: absolute
+        margin-bottom: 20px
+        position: relative
         font-size: 18px
         line-height: 27px
         width: 250px
-        text-align: left
+        text-align: justify
     &-icons
         width: 150px
-        position: absolute
-        margin-top: 73%
+        position: relative
     &-contain
-        position: absolute
-        margin-top: 90%
+        position: relative
+        margin-top: 20px
         width: 174px
-
-    &-obr
-        position: absolute
-        -moz-border-radius: 128px / 57px
-        -webkit-border-radius: 128px / 57px
-        border-radius: 128px / 57px
-        width: 256.53px
-        height: 117.48px
-        opacity: 0.8
-        border: 1px solid #615055
-        box-sizing: border-box
-        transform: rotate(-12.54deg)
-        margin-top: 13px
 .slide4
-    position: relative
     &-title
-        position: absolute
+        position: relative
         font-size: 64px 
-        margin-top: 40px
-        margin-left: 21px
+        margin: auto
         
-    &-obr
-        position: absolute
-        -moz-border-radius: 128px / 57px
-        -webkit-border-radius: 128px / 57px
-        border-radius: 128px / 57px
-        width: 256.53px
-        height: 117.48px
-        opacity: 0.8
-        border: 1px solid #262B39
-        box-sizing: border-box
-        transform: rotate(-12.54deg)
-        margin-top: 8px
-        margin-left: -3px
     &-cont
-        margin-top: 50%
-        position: absolute
+        position: relative
         font-size: 18px
         line-height: 27px
         width: 250px
         text-align: left
+        margin-bottom: 20px
     &-icons
         width: 150px
-        position: absolute
-        margin-top: 73%
+        position: relative
     &-contain
-        position: absolute
-        margin-top: 90%
+        position: relative
+        margin-top: 20px
         width: 174px
         text-align: left
-
 .slide5
-    position: relative
     color: #027E72 
     &-title
-        position: absolute
+        position: relative
         font-size: 64px
-        margin-top: 40px
-        margin-left: 11px
+        margin: auto
         
-    &-obr
-        position: absolute
-        -moz-border-radius: 128px / 57px
-        -webkit-border-radius: 128px / 57px
-        border-radius: 128px / 57px
-        width: 256.53px
-        height: 117.48px
-        opacity: 0.8
-        border: 1px solid #027E72
-        box-sizing: border-box
-        transform: rotate(-12.54deg)
-        margin-top: 6px
-        margin-left: -16px
     &-cont
-        margin-top: 50%
-        position: absolute
+        position: relative
         font-size: 18px
         line-height: 27px
         width: 250px
         text-align: left
+        margin-bottom: 20px
     &-icons
         width: 150px
-        position: absolute
-        margin-top: 128%
+        position: relative
+        display: flex
+    &-ic2
+        margin-left: 20px
     &-contain
-        position: absolute
-        margin-top: 142%
+        margin-top: 20px
+        position: relative
         width: 174px
         text-align: left
-
 .slide6
-    position: relative
     color: #615055
     &-title
-        position: absolute
+        position: relative
         font-size: 64px
-        margin-top: 40px
-        margin-left: 39px
+        margin: auto
         
-    &-obr
-        position: absolute
-        -moz-border-radius: 128px / 57px
-        -webkit-border-radius: 128px / 57px
-        border-radius: 128px / 57px
-        width: 256.53px
-        height: 117.48px
-        opacity: 0.8
-        border: 1px solid #615055
-        box-sizing: border-box
-        transform: rotate(-12.54deg)
-        margin-top: 13px
     &-cont
-        margin-top: 50%
-        position: absolute
+        margin-bottom: 20px
+        position: relative
         font-size: 18px
         line-height: 27px
         width: 250px
         text-align: left
     &-icons
         width: 150px
-        position: absolute
-        margin-top: 110%
+        position: relative
+        display: flex
     &-contain
-        position: absolute
-        margin-top: 125%
+        position: relative
         width: 174px
+        margin-top: 20px
         text-align: left
 
 .slide7
-    position: relative
     &-title
-        position: absolute
+        position: relative
         font-size: 64px
-        margin-top: 40px
-        margin-left: 21px
+        margin: auto
         
-    &-obr
-        position: absolute
-        -moz-border-radius: 128px / 57px
-        -webkit-border-radius: 128px / 57px
-        border-radius: 128px / 57px
-        width: 256.53px
-        height: 117.48px
-        opacity: 0.8
-        border: 1px solid #262B39
-        box-sizing: border-box
-        transform: rotate(-12.54deg)
-        margin-top: 8px
-        margin-left: -3px
     &-cont
-        margin-top: 50%
-        position: absolute
+        margin-bottom: 20px
+        position: relative
         font-size: 18px
         line-height: 27px
         width: 250px
         text-align: left
     &-icons
         width: 150px
-        position: absolute
-        margin-top: 100%
+        position: relative
+        display: flex
     &-contain
-        position: absolute
-        margin-top: 115%
+        position: relative
         width: 174px
         text-align: left
-
+        margin-top: 20px
 .slide8
-    position: relative
     color: #027E72
     &-title
-        position: absolute
+        position: relative
         font-size: 64px
-        margin-top: 40px
-        margin-left: 11px
-        
-    &-obr
-        position: absolute
-        -moz-border-radius: 128px / 57px
-        -webkit-border-radius: 128px / 57px
-        border-radius: 128px / 57px
-        width: 256.53px
-        height: 117.48px
-        opacity: 0.8
-        border: 1px solid #027E72
-        box-sizing: border-box
-        transform: rotate(-12.54deg)
-        margin-top: 10px
-        margin-left: -16px
+        margin: auto
     &-cont
-        margin-top: 50%
-        position: absolute
+        margin-bottom: 20px
+        position: relative
         font-size: 18px
         line-height: 27px
         width: 250px
         text-align: left
     &-icons
         width: 150px
-        position: absolute
-        margin-top: 120%
+        position: relative
+        display: flex
     &-contain
-        position: absolute
-        margin-top: 135%
+        position: relative
+        margin-top: 20px
         width: 174px
         text-align: left
 
 .slide9
-    position: relative
     color: #615055
     &-title
-        position: absolute
+        position: relative
         font-size: 64px
-        margin-top: 40px
-        margin-left: 39px
+        margin: auto
         
-    &-obr
-        position: absolute
-        -moz-border-radius: 128px / 57px
-        -webkit-border-radius: 128px / 57px
-        border-radius: 128px / 57px
-        width: 256.53px
-        height: 117.48px
-        opacity: 0.8
-        border: 1px solid #615055
-        box-sizing: border-box
-        transform: rotate(-12.54deg)
-        margin-top: 13px
     &-cont
-        margin-top: 50%
-        position: absolute
+        margin-bottom: 20px
+        position: relative
         font-size: 18px
         line-height: 27px
         width: 250px
         text-align: left
     &-icons
         width: 150px
-        position: absolute
-        margin-top: 120%
+        position: relative
+        display: flex
     &-contain
-        position: absolute
-        margin-top: 135%
+        position: relative
+        margin-top: 20px
         width: 174px
         text-align: left
-
-#slide1:checked ~ .type-wrap__slider-slider > .group1, #slide2:checked ~ .type-wrap__slider-slider > .group2, #slide3:checked ~ .type-wrap__slider-slider > .group3
-	opacity: 1
-	-webkit-transform: scale(1)
-	-moz-transform: scale(1)
-	-o-transform: scale(1)
-	transform: scale(1)
